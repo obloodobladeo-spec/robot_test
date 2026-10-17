@@ -1,0 +1,16 @@
+robot_serial_bridge:
+  ros__parameters:
+    # Jetson에서 ls -l /dev/serial/by-id/ 로 확인한 경로를 권장합니다.
+    port: /dev/ttyACM0
+    baudrate: 115200
+    # 좌우 바퀴 중심 사이 실측 거리(m)를 입력하세요. 바퀴 지름이 아닙니다.
+    wheel_separation_m: 0.0
+    # 전진 방향을 바라봤을 때 모터 1 위치: left 또는 right
+    motor1_side: unset
+    # 실행할 때 enable_motors:=true로 명시해야 실제 명령이 전달됩니다.
+    enable_motors: false
+    max_linear_m_s: 0.2
+    max_angular_rad_s: 0.5
+    max_wheel_m_s: 0.2
+    cmd_timeout_s: 0.3
+    feedback_timeout_s: 0.5
