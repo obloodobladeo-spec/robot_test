@@ -1,5 +1,12 @@
 # robot_test
 
+## 통합 구성과 앞으로의 계획 — 2026-10-23
+
+- [STM32·Jetson·C1·IMU 구성](docs/ARCHITECTURE.md)
+- [구현 순서와 단계별 완료 기준](docs/ROADMAP.md)
+
+위 문서는 현재 학습 결과를 바탕으로 한 통합 계획입니다. 아래의 기존 실행 패키지와 현재 학습 중인 `encoder_basic`은 통신 형식이 다르며, 바로 서로 연결할 수 없습니다. IMU·EKF·통합 bringup은 아직 구현되지 않았습니다. 아래 실행 안내의 기본 설정은 기존 독립 테스트 패키지를 기준으로 합니다.
+
 Jetson Orin Nano와 NUCLEO-F446RE로 두 바퀴 로봇을 키보드 조작하는 최소 실행 구성입니다. 기존 STM32 학습 워크스페이스를 복사한 독립 프로젝트이며 기존 `encoder_basic` 소스는 수정하지 않았습니다.
 
 ```text
