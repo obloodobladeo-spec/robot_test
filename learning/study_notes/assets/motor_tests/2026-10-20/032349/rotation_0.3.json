@@ -1,0 +1,1667 @@
+{
+  "linear_mm_s": 0,
+  "angular_rad_s": 0.3,
+  "seconds": 10,
+  "track_mm": 230,
+  "elf_sha256": "07fa4506fc1fde6c4bce5eef24641e85ceac56001b58afe1179f6bfddb5b6979",
+  "condition": "rotation_reproduction_setup_not_independently_observed",
+  "initial": {
+    "halted": false,
+    "tick": 1973350,
+    "m1": {
+      "target": 0.0,
+      "ramp": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": -0.0,
+      "integral": 0.0,
+      "kp": 0.10000000149011612,
+      "ki": 0.10000000149011612,
+      "delta": 0,
+      "direction": -1,
+      "ccr": 0
+    },
+    "m2": {
+      "target": 0.0,
+      "ramp": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": -0.0,
+      "integral": 0.0,
+      "kp": 0.10000000149011612,
+      "ki": 0.10000000149011612,
+      "delta": 0,
+      "direction": -1,
+      "ccr": 0
+    },
+    "command": {
+      "linear_speed_mm_s": 0.0,
+      "angular_speed_rad_s": 0.0
+    },
+    "dir_gpio_odr": 0
+  },
+  "rows": [
+    {
+      "halted": false,
+      "tick": 1973976,
+      "m1": {
+        "target": -34.5,
+        "ramp": -10.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 1.100000023841858,
+        "error": -10.0,
+        "integral": 0.10000000149011612,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 46
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 0,
+      "elapsed": 0.26600000000325963
+    },
+    {
+      "halted": false,
+      "tick": 1974262,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 4.394999980926514,
+        "error": -34.5,
+        "integral": 0.9450000524520874,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 184
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 10.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 1.100000023841858,
+        "error": 10.0,
+        "integral": 0.10000000149011612,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 46
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 0.5469999999986612
+    },
+    {
+      "halted": false,
+      "tick": 1974556,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 5.415981292724609,
+        "error": -34.5,
+        "integral": 1.9659810066223145,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 227
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 4.394999980926514,
+        "error": 34.5,
+        "integral": 0.9450000524520874,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 184
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 0.8440000000045984
+    },
+    {
+      "halted": false,
+      "tick": 1974857,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 6.450981140136719,
+        "error": -34.5,
+        "integral": 3.000981092453003,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 270
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 1.3960250616073608,
+        "rpm": 0.24236547946929932,
+        "duty": 5.1228742599487305,
+        "error": 33.103973388671875,
+        "integral": 1.8124771118164062,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 1,
+        "direction": 1,
+        "ccr": 215
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 1.1560000000026776
+    },
+    {
+      "halted": false,
+      "tick": 1975195,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 7.485980987548828,
+        "error": -34.5,
+        "integral": 4.035981178283691,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 314
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 6.2974772453308105,
+        "error": 34.5,
+        "integral": 2.8474771976470947,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 264
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 1.5310000000026776
+    },
+    {
+      "halted": false,
+      "tick": 1975578,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 8.86598014831543,
+        "error": -34.5,
+        "integral": 5.415980339050293,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 372
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 7.663516998291016,
+        "error": 34.5,
+        "integral": 4.213516712188721,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 321
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 1.8590000000040163
+    },
+    {
+      "halted": false,
+      "tick": 1975875,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 9.900979995727539,
+        "error": -34.5,
+        "integral": 6.450979709625244,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 415
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 8.684556007385254,
+        "error": 34.5,
+        "integral": 5.234556198120117,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 364
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 2.1560000000026776
+    },
+    {
+      "halted": false,
+      "tick": 1976162,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 10.92195987701416,
+        "error": -34.5,
+        "integral": 7.471960067749023,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 458
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 9.719555854797363,
+        "error": 34.5,
+        "integral": 6.269555568695068,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 408
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 2.438000000001921
+    },
+    {
+      "halted": false,
+      "tick": 1976439,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": -1.4019147157669067,
+        "rpm": -0.24338796734809875,
+        "duty": 11.802749633789062,
+        "error": -33.09808349609375,
+        "integral": 8.492940902709961,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": -1,
+        "direction": -1,
+        "ccr": 495
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 10.754554748535156,
+        "error": 34.5,
+        "integral": 7.3045549392700195,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 451
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 2.7190000000045984
+    },
+    {
+      "halted": false,
+      "tick": 1976724,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": -1.4019147157669067,
+        "rpm": -0.24338796734809875,
+        "duty": 12.809712409973145,
+        "error": -33.09808349609375,
+        "integral": 9.499903678894043,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": -1,
+        "direction": -1,
+        "ccr": 538
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 1.3960250616073608,
+        "rpm": 0.24236547946929932,
+        "duty": 11.635991096496582,
+        "error": 33.103973388671875,
+        "integral": 8.325593948364258,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 1,
+        "direction": 1,
+        "ccr": 488
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 3.0
+    },
+    {
+      "halted": false,
+      "tick": 1977007,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 13.984904289245605,
+        "error": -34.5,
+        "integral": 10.534904479980469,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 587
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 2.7920501232147217,
+        "rpm": 0.48473095893859863,
+        "duty": 12.489508628845215,
+        "error": 31.707950592041016,
+        "integral": 9.318713188171387,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 2,
+        "direction": 1,
+        "ccr": 524
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 3.2660000000032596
+    },
+    {
+      "halted": false,
+      "tick": 1977278,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 14.674904823303223,
+        "error": -34.5,
+        "integral": 11.224905014038086,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 616
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 13.45871353149414,
+        "error": 34.5,
+        "integral": 10.008713722229004,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 565
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 3.5469999999986612
+    },
+    {
+      "halted": false,
+      "tick": 1977565,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 15.653828620910645,
+        "error": -34.5,
+        "integral": 12.203828811645508,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 657
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 14.493714332580566,
+        "error": 34.5,
+        "integral": 11.04371452331543,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 608
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 3.8440000000045984
+    },
+    {
+      "halted": false,
+      "tick": 1977853,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 16.68882942199707,
+        "error": -34.5,
+        "integral": 13.238829612731934,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 700
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 15.528715133666992,
+        "error": 34.5,
+        "integral": 12.078715324401855,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 652
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 4.125
+    },
+    {
+      "halted": false,
+      "tick": 1978139,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 17.723831176757812,
+        "error": -34.5,
+        "integral": 14.27383041381836,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 744
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 1.3960250616073608,
+        "rpm": 0.24236547946929932,
+        "duty": 16.340351104736328,
+        "error": 33.103973388671875,
+        "integral": 13.029953956604004,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 1,
+        "direction": 1,
+        "ccr": 686
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 4.4060000000026776
+    },
+    {
+      "halted": false,
+      "tick": 1978456,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 18.758831024169922,
+        "error": -34.5,
+        "integral": 15.308831214904785,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 787
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 4.188075542449951,
+        "rpm": 0.7270963788032532,
+        "duty": 17.05426597595215,
+        "error": 30.31192398071289,
+        "integral": 14.02307415008545,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 3,
+        "direction": 1,
+        "ccr": 716
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 4.75
+    },
+    {
+      "halted": false,
+      "tick": 1978797,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 19.793832778930664,
+        "error": -34.5,
+        "integral": 16.34383201599121,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 831
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 18.508075714111328,
+        "error": 34.5,
+        "integral": 15.058074951171875,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 777
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 5.063000000001921
+    },
+    {
+      "halted": false,
+      "tick": 1979090,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 20.82883071899414,
+        "error": -34.5,
+        "integral": 17.378829956054688,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 874
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 19.543075561523438,
+        "error": 34.5,
+        "integral": 16.093074798583984,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 820
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 5.359000000004016
+    },
+    {
+      "halted": false,
+      "tick": 1979379,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 21.863828659057617,
+        "error": -34.5,
+        "integral": 18.413827896118164,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 918
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 5.584100246429443,
+        "rpm": 0.9694619178771973,
+        "duty": 19.935903549194336,
+        "error": 28.9158992767334,
+        "integral": 17.044313430786133,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 4,
+        "direction": 1,
+        "ccr": 837
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 5.64100000000326
+    },
+    {
+      "halted": false,
+      "tick": 1979668,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 22.898826599121094,
+        "error": -34.5,
+        "integral": 19.44882583618164,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 961
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 1.3960250616073608,
+        "rpm": 0.24236547946929932,
+        "duty": 21.33386993408203,
+        "error": 33.103973388671875,
+        "integral": 18.02347183227539,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 1,
+        "direction": 1,
+        "ccr": 896
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 5.938000000001921
+    },
+    {
+      "halted": false,
+      "tick": 1979953,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 23.93382453918457,
+        "error": -34.5,
+        "integral": 20.483823776245117,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 1005
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 22.50847053527832,
+        "error": 34.5,
+        "integral": 19.058469772338867,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 945
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 6.219000000004598
+    },
+    {
+      "halted": false,
+      "tick": 1980236,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 24.968822479248047,
+        "error": -34.5,
+        "integral": 21.518821716308594,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 1048
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 1.3960250616073608,
+        "rpm": 0.24236547946929932,
+        "duty": 23.33406639099121,
+        "error": 33.103973388671875,
+        "integral": 20.02366828918457,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 1,
+        "direction": 1,
+        "ccr": 980
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 6.5
+    },
+    {
+      "halted": false,
+      "tick": 1980524,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 26.003820419311523,
+        "error": -34.5,
+        "integral": 22.55381965637207,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 1092
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 24.5086669921875,
+        "error": 34.5,
+        "integral": 21.058666229248047,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 1029
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 6.796999999998661
+    },
+    {
+      "halted": false,
+      "tick": 1980818,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 27.038818359375,
+        "error": -34.5,
+        "integral": 23.588817596435547,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 1135
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 2.7920501232147217,
+        "rpm": 0.48473095893859863,
+        "duty": 25.15277862548828,
+        "error": 31.707950592041016,
+        "integral": 21.981983184814453,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 2,
+        "direction": 1,
+        "ccr": 1056
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 7.078000000001339
+    },
+    {
+      "halted": false,
+      "tick": 1981112,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": -4.20574426651001,
+        "rpm": -0.7301639318466187,
+        "duty": 27.611183166503906,
+        "error": -30.29425621032715,
+        "integral": 24.581758499145508,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": -3,
+        "direction": -1,
+        "ccr": 1159
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 23.73242950439453,
+        "rpm": 4.120213031768799,
+        "duty": 23.81453514099121,
+        "error": 10.767570495605469,
+        "integral": 22.737777709960938,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 17,
+        "direction": 1,
+        "ccr": 1000
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 7.375
+    },
+    {
+      "halted": false,
+      "tick": 1981404,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": -2.8038294315338135,
+        "rpm": -0.4867759346961975,
+        "duty": 28.329221725463867,
+        "error": -31.696170806884766,
+        "integral": 25.159605026245117,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": -2,
+        "direction": -1,
+        "ccr": 1216
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 27.083173751831055,
+        "error": 34.5,
+        "integral": 23.6331729888916,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 1137
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 7.671999999998661
+    },
+    {
+      "halted": false,
+      "tick": 1981723,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": -7.009573459625244,
+        "rpm": -1.2169398069381714,
+        "duty": 29.134435653686523,
+        "error": -27.490427017211914,
+        "integral": 26.385393142700195,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": -5,
+        "direction": -1,
+        "ccr": 1223
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 28.11817169189453,
+        "error": 34.5,
+        "integral": 24.668170928955078,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 1180
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 8.01600000000326
+    },
+    {
+      "halted": false,
+      "tick": 1982065,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 30.870391845703125,
+        "error": -34.5,
+        "integral": 27.420391082763672,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 1296
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 29.139209747314453,
+        "error": 34.5,
+        "integral": 25.689208984375,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 1223
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 8.328000000001339
+    },
+    {
+      "halted": false,
+      "tick": 1982356,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 31.9053897857666,
+        "error": -34.5,
+        "integral": 28.45538902282715,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 1340
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 18.148326873779297,
+        "rpm": 3.1507513523101807,
+        "duty": 27.940568923950195,
+        "error": 16.351673126220703,
+        "integral": 26.305400848388672,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 13,
+        "direction": 1,
+        "ccr": 1173
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 8.609000000004016
+    },
+    {
+      "halted": false,
+      "tick": 1982642,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": -4.20574426651001,
+        "rpm": -0.7301639318466187,
+        "duty": 31.83287811279297,
+        "error": -30.29425621032715,
+        "integral": 28.803451538085938,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": -3,
+        "direction": -1,
+        "ccr": 1336
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 30.4832763671875,
+        "error": 34.5,
+        "integral": 27.033275604248047,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 1280
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 8.906000000002678
+    },
+    {
+      "halted": false,
+      "tick": 1982932,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 33.148258209228516,
+        "error": -34.5,
+        "integral": 29.698259353637695,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 1392
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 2.7920501232147217,
+        "rpm": 0.48473095893859863,
+        "duty": 31.099468231201172,
+        "error": 31.707950592041016,
+        "integral": 27.928672790527344,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 2,
+        "direction": 1,
+        "ccr": 1306
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 9.18800000000192
+    },
+    {
+      "halted": false,
+      "tick": 1983220,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 34.183258056640625,
+        "error": -34.5,
+        "integral": 30.733257293701172,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 1435
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 13.960251808166504,
+        "rpm": 2.423654556274414,
+        "duty": 30.766361236572266,
+        "error": 20.539749145507812,
+        "integral": 28.712387084960938,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 10,
+        "direction": 1,
+        "ccr": 1292
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 9.469000000004598
+    },
+    {
+      "halted": false,
+      "tick": 1983514,
+      "m1": {
+        "target": -34.5,
+        "ramp": -34.5,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 35.21825408935547,
+        "error": -34.5,
+        "integral": 31.76825523376465,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 1479
+      },
+      "m2": {
+        "target": 34.5,
+        "ramp": 34.5,
+        "speed": 4.188075542449951,
+        "rpm": 0.7270963788032532,
+        "duty": 32.52729415893555,
+        "error": 30.31192398071289,
+        "integral": 29.496103286743164,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 3,
+        "direction": 1,
+        "ccr": 1366
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.30000001192092896
+      },
+      "dir_gpio_odr": 2,
+      "elapsed": 9.76600000000326
+    }
+  ],
+  "status": "completed",
+  "stop": [
+    {
+      "halted": false,
+      "tick": 1984329,
+      "m1": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.0
+      },
+      "dir_gpio_odr": 2
+    },
+    {
+      "halted": false,
+      "tick": 1984830,
+      "m1": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.0
+      },
+      "dir_gpio_odr": 2
+    },
+    {
+      "halted": false,
+      "tick": 1985352,
+      "m1": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.0
+      },
+      "dir_gpio_odr": 2
+    },
+    {
+      "halted": false,
+      "tick": 1985847,
+      "m1": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.0
+      },
+      "dir_gpio_odr": 2
+    },
+    {
+      "halted": false,
+      "tick": 1986335,
+      "m1": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.0
+      },
+      "dir_gpio_odr": 2
+    },
+    {
+      "halted": false,
+      "tick": 1986826,
+      "m1": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.0
+      },
+      "dir_gpio_odr": 2
+    },
+    {
+      "halted": false,
+      "tick": 1987306,
+      "m1": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.0
+      },
+      "dir_gpio_odr": 2
+    },
+    {
+      "halted": false,
+      "tick": 1987789,
+      "m1": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "ramp": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": -0.0,
+        "integral": 0.0,
+        "kp": 0.10000000149011612,
+        "ki": 0.10000000149011612,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "command": {
+        "linear_speed_mm_s": 0.0,
+        "angular_speed_rad_s": 0.0
+      },
+      "dir_gpio_odr": 2
+    }
+  ],
+  "summary": {
+    "m1": {
+      "target": {
+        "mean": -34.5,
+        "min": -34.5,
+        "max": -34.5
+      },
+      "ramp": {
+        "mean": -34.5,
+        "min": -34.5,
+        "max": -34.5
+      },
+      "speed": {
+        "mean": -1.6,
+        "min": -7.01,
+        "max": 0.0
+      },
+      "duty": {
+        "mean": 32.33,
+        "min": 29.13,
+        "max": 35.22
+      },
+      "integral": {
+        "mean": 29.04,
+        "min": 26.39,
+        "max": 31.77
+      },
+      "ccr": {
+        "mean": 1357.29,
+        "min": 1223,
+        "max": 1479
+      }
+    },
+    "m2": {
+      "target": {
+        "mean": 34.5,
+        "min": 34.5,
+        "max": 34.5
+      },
+      "ramp": {
+        "mean": 34.5,
+        "min": 34.5,
+        "max": 34.5
+      },
+      "speed": {
+        "mean": 5.58,
+        "min": 0.0,
+        "max": 18.15
+      },
+      "duty": {
+        "mean": 30.01,
+        "min": 27.94,
+        "max": 32.53
+      },
+      "integral": {
+        "mean": 27.12,
+        "min": 24.67,
+        "max": 29.5
+      },
+      "ccr": {
+        "mean": 1260,
+        "min": 1173,
+        "max": 1366
+      }
+    }
+  },
+  "summary_seconds": 2
+}

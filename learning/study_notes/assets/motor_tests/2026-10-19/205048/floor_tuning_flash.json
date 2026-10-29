@@ -1,0 +1,64 @@
+{
+  "before": {
+    "halted": false,
+    "arr": 4199,
+    "m1": {
+      "target": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": 0.0,
+      "integral": 0.0,
+      "kp": 0.05,
+      "ki": 0.1,
+      "delta": 0,
+      "direction": -1,
+      "ccr": 0
+    },
+    "m2": {
+      "target": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": 0.0,
+      "integral": 0.0,
+      "kp": 0.05,
+      "ki": 0.1,
+      "delta": 0,
+      "direction": -1,
+      "ccr": 0
+    }
+  },
+  "after": {
+    "halted": false,
+    "arr": 4199,
+    "m1": {
+      "target": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": 0.0,
+      "integral": 0.0,
+      "kp": 0.05,
+      "ki": 0.1,
+      "delta": 0,
+      "direction": 1,
+      "ccr": 0
+    },
+    "m2": {
+      "target": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": 0.0,
+      "integral": 0.0,
+      "kp": 0.05,
+      "ki": 0.1,
+      "delta": 0,
+      "direction": 1,
+      "ccr": 0
+    }
+  },
+  "elf_sha256": "3a9aa9e6dad949b251e7a39c4bca2ed0d56fca2f845c59e4e7be48df3e781b6b",
+  "programmer_log": "      -------------------------------------------------------------------\n                       STM32CubeProgrammer v2.23.0                  \n      -------------------------------------------------------------------\n\nST-LINK SN  : 066DFF505071655067244046\nST-LINK FW  : V2J48M35\nBoard       : NUCLEO-F446RE\nVoltage     : 3.25V\nSWD freq    : 950 KHz\nConnect mode: Under Reset\nReset mode  : Hardware reset\nDevice ID   : 0x421\nRevision ID : Rev A\nDevice name : STM32F446xx\nNVM size    : 512 KBytes\nDevice type : MCU\nDevice CPU  : Cortex-M4\nBL Version  : 0x90\n\n\n\nOpening and parsing file: encoder_basic.elf\n\n\nMemory Programming ...\n  File          : encoder_basic.elf\n  Size          : 13.46 KB \n  Address       : 0x08000000\n\n\nErasing memory corresponding to segment 0:\nErasing internal memory sector 0\nDownload in Progress:\n\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47 0%\n\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822 100%\n\nFile download complete\nTime elapsed during download operation: 00:00:00.735\n\n\n\nVerifying...\n\n\nRead progress:\n\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47\uad47 50%\n\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822\u6822 100%\n\nTime elapsed during verifying operation: 00:00:00.230\n\n\nDownload verified successfully\n\n\n\nMCU Reset\n\nSoftware reset is performed\n"
+}

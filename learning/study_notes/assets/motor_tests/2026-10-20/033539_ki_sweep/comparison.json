@@ -1,0 +1,209 @@
+{
+  "condition": "added_weight_user_report_mass_and_placement_unmeasured",
+  "original_gains": {
+    "motor1": {
+      "kp": 0.10000000149011612,
+      "ki": 0.10000000149011612
+    },
+    "motor2": {
+      "kp": 0.10000000149011612,
+      "ki": 0.10000000149011612
+    }
+  },
+  "trials": [
+    {
+      "ki": 0.1,
+      "angular": 0.3,
+      "status": "completed",
+      "metrics": {
+        "m1": {
+          "first_motion_observed_s": 1.2,
+          "last_5s_speed_mean": -38.43,
+          "last_5s_speed_std": 5.91,
+          "last_5s_duty_mean": 32.8
+        },
+        "m2": {
+          "first_motion_observed_s": 7.31,
+          "last_5s_speed_mean": 40.73,
+          "last_5s_speed_std": 6.46,
+          "last_5s_duty_mean": 30.96
+        }
+      },
+      "raw_file": "ki_0.1_angular_0.3.json"
+    },
+    {
+      "ki": 0.1,
+      "angular": -0.3,
+      "status": "completed",
+      "metrics": {
+        "m1": {
+          "first_motion_observed_s": 6.97,
+          "last_5s_speed_mean": 27.21,
+          "last_5s_speed_std": 9.26,
+          "last_5s_duty_mean": 40.76
+        },
+        "m2": {
+          "first_motion_observed_s": 8.11,
+          "last_5s_speed_mean": -33.34,
+          "last_5s_speed_std": 9.11,
+          "last_5s_duty_mean": 33.82
+        }
+      },
+      "raw_file": "ki_0.1_angular_-0.3.json"
+    },
+    {
+      "ki": 0.2,
+      "angular": 0.3,
+      "status": "completed",
+      "metrics": {
+        "m1": {
+          "first_motion_observed_s": 0.95,
+          "last_5s_speed_mean": -36.61,
+          "last_5s_speed_std": 9.11,
+          "last_5s_duty_mean": 31.63
+        },
+        "m2": {
+          "first_motion_observed_s": 0.95,
+          "last_5s_speed_mean": 35.83,
+          "last_5s_speed_std": 7.52,
+          "last_5s_duty_mean": 30.03
+        }
+      },
+      "raw_file": "ki_0.2_angular_0.3.json"
+    },
+    {
+      "ki": 0.2,
+      "angular": -0.3,
+      "status": "completed",
+      "metrics": {
+        "m1": {
+          "first_motion_observed_s": 5.95,
+          "last_5s_speed_mean": 27.54,
+          "last_5s_speed_std": 15.71,
+          "last_5s_duty_mean": 37.77
+        },
+        "m2": {
+          "first_motion_observed_s": 0.88,
+          "last_5s_speed_mean": -32.52,
+          "last_5s_speed_std": 8.9,
+          "last_5s_duty_mean": 32.45
+        }
+      },
+      "raw_file": "ki_0.2_angular_-0.3.json"
+    },
+    {
+      "ki": 0.3,
+      "angular": 0.3,
+      "status": "completed",
+      "metrics": {
+        "m1": {
+          "first_motion_observed_s": 0.86,
+          "last_5s_speed_mean": -35.59,
+          "last_5s_speed_std": 6.43,
+          "last_5s_duty_mean": 31.74
+        },
+        "m2": {
+          "first_motion_observed_s": 0.86,
+          "last_5s_speed_mean": 33.74,
+          "last_5s_speed_std": 5.04,
+          "last_5s_duty_mean": 30.24
+        }
+      },
+      "raw_file": "ki_0.3_angular_0.3.json"
+    },
+    {
+      "ki": 0.3,
+      "angular": -0.3,
+      "status": "completed",
+      "metrics": {
+        "m1": {
+          "first_motion_observed_s": 0.91,
+          "last_5s_speed_mean": 33.4,
+          "last_5s_speed_std": 14.66,
+          "last_5s_duty_mean": 37.16
+        },
+        "m2": {
+          "first_motion_observed_s": 0.91,
+          "last_5s_speed_mean": -33.09,
+          "last_5s_speed_std": 6.07,
+          "last_5s_duty_mean": 33.81
+        }
+      },
+      "raw_file": "ki_0.3_angular_-0.3.json"
+    }
+  ],
+  "stop": {
+    "halted": false,
+    "tick": 2842259,
+    "m1": {
+      "target": 0.0,
+      "ramp": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": -0.0,
+      "integral": 0.0,
+      "kp": 0.10000000149011612,
+      "ki": 0.30000001192092896,
+      "delta": 0,
+      "direction": 1,
+      "ccr": 0
+    },
+    "m2": {
+      "target": 0.0,
+      "ramp": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": -0.0,
+      "integral": 0.0,
+      "kp": 0.10000000149011612,
+      "ki": 0.30000001192092896,
+      "delta": 0,
+      "direction": -1,
+      "ccr": 0
+    },
+    "command": {
+      "linear_speed_mm_s": 0.0,
+      "angular_speed_rad_s": 0.0
+    },
+    "dir_gpio_odr": 1
+  },
+  "restored": {
+    "halted": false,
+    "tick": 2842936,
+    "m1": {
+      "target": 0.0,
+      "ramp": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": -0.0,
+      "integral": 0.0,
+      "kp": 0.10000000149011612,
+      "ki": 0.10000000149011612,
+      "delta": 0,
+      "direction": 1,
+      "ccr": 0
+    },
+    "m2": {
+      "target": 0.0,
+      "ramp": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": -0.0,
+      "integral": 0.0,
+      "kp": 0.10000000149011612,
+      "ki": 0.10000000149011612,
+      "delta": 0,
+      "direction": -1,
+      "ccr": 0
+    },
+    "command": {
+      "linear_speed_mm_s": 0.0,
+      "angular_speed_rad_s": 0.0
+    },
+    "dir_gpio_odr": 1
+  }
+}

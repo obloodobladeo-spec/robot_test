@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-29",
+  "purpose": "Original learning source snapshots; original directories not modified",
+  "groups": [
+    {
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\446re_sample_project",
+      "destination": "stm32/446re_sample_project",
+      "files": 105,
+      "bytes": 7191907
+    },
+    {
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encoder_basic",
+      "destination": "stm32/encoder_basic",
+      "files": 105,
+      "bytes": 7494613
+    },
+    {
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test",
+      "destination": "stm32/encorder_test",
+      "files": 95,
+      "bytes": 6546085
+    },
+    {
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\mdd10a_standalone",
+      "destination": "stm32/mdd10a_standalone",
+      "files": 97,
+      "bytes": 7680056
+    },
+    {
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\PWM_test",
+      "destination": "stm32/PWM_test",
+      "files": 98,
+      "bytes": 7194816
+    },
+    {
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\sample_mode",
+      "destination": "stm32/sample_mode",
+      "files": 80,
+      "bytes": 3957917
+    },
+    {
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\timer_test",
+      "destination": "stm32/timer_test",
+      "files": 98,
+      "bytes": 7185252
+    },
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\heosi\\ros2_study\\src\\motor_bridge",
+      "destination": "ros2_ws/src/motor_bridge",
+      "files": 10,
+      "bytes": 11134
+    },
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\heosi\\ros2_study\\src\\robot_description",
+      "destination": "ros2_ws/src/robot_description",
+      "files": 5,
+      "bytes": 12874
+    },
+    {
+      "source": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\heosi\\ros2_study\\src\\sllidar_ros2",
+      "destination": "ros2_ws/src/sllidar_ros2",
+      "files": 104,
+      "bytes": 629352
+    },
+    {
+      "source": "C:\\Users\\heosi\\study_notes\\notes\\2026\\10",
+      "destination": "study_notes/notes/2026/10",
+      "files": 7,
+      "bytes": 80010
+    },
+    {
+      "source": "C:\\Users\\heosi\\study_notes\\assets\\motor_tests",
+      "destination": "study_notes/assets/motor_tests",
+      "files": 140,
+      "bytes": 12459972
+    },
+    {
+      "source": "C:\\Users\\heosi\\hardware\\README.md",
+      "destination": "hardware/README.md",
+      "files": 1,
+      "bytes": 28069
+    }
+  ],
+  "excluded": [
+    ".git",
+    ".gitignore",
+    ".metadata",
+    ".settings",
+    "Debug",
+    "Release",
+    "build",
+    "install",
+    "log",
+    "__pycache__",
+    "*.egg-info",
+    "*.pyc",
+    "*.pyo"
+  ],
+  "sllidar_ros2": {
+    "url": "https://github.com/Slamtec/sllidar_ros2.git",
+    "commit": "34300099fadfc772965962dec837bf436706188f"
+  },
+  "notes": "Historical notes and projects represent their last saved state; see README for current verification and unresolved discovery issues."
+}

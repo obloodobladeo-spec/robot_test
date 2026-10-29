@@ -1,0 +1,36 @@
+[
+  {
+    "target": 100,
+    "source": "floor_short_100_kp0.05_211259.json",
+    "speed_difference_rms": 1.89,
+    "m1": {
+      "speed_mean": 104.38,
+      "speed_min": 93.9283,
+      "speed_max": 112.1532,
+      "duty_mean": 15.44
+    },
+    "m2": {
+      "speed_mean": 104.96,
+      "speed_min": 93.5337,
+      "speed_max": 111.682,
+      "duty_mean": 14.93
+    }
+  },
+  {
+    "target": -100,
+    "source": "floor_short_-100_kp0.05_211311.json",
+    "speed_difference_rms": 1.71,
+    "m1": {
+      "speed_mean": -103.81,
+      "speed_min": -110.7513,
+      "speed_max": -96.7321,
+      "duty_mean": 15.25
+    },
+    "m2": {
+      "speed_mean": -103.72,
+      "speed_min": -110.286,
+      "speed_max": -97.7218,
+      "duty_mean": 15.11
+    }
+  }
+]

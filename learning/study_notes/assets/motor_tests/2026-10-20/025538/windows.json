@@ -1,0 +1,80 @@
+{
+  "first_observed_motion": {
+    "m1": {
+      "time_s": 8.17,
+      "speed": -8.41,
+      "duty": 29.57
+    },
+    "m2": {
+      "time_s": 6.39,
+      "speed": 6.98,
+      "duty": 23.4
+    }
+  },
+  "windows": [
+    {
+      "seconds": [
+        0,
+        5
+      ],
+      "samples": 17,
+      "m1": {
+        "speed": -0.16,
+        "duty": 11.35
+      },
+      "m2": {
+        "speed": 0.49,
+        "duty": 11.28
+      },
+      "speed_magnitude_difference_rms": 1.07
+    },
+    {
+      "seconds": [
+        5,
+        10
+      ],
+      "samples": 17,
+      "m1": {
+        "speed": -6.27,
+        "duty": 27.39
+      },
+      "m2": {
+        "speed": 15.27,
+        "duty": 24.74
+      },
+      "speed_magnitude_difference_rms": 14.66
+    },
+    {
+      "seconds": [
+        10,
+        15
+      ],
+      "samples": 17,
+      "m1": {
+        "speed": -32.33,
+        "duty": 30.85
+      },
+      "m2": {
+        "speed": 24.14,
+        "duty": 31.38
+      },
+      "speed_magnitude_difference_rms": 14.53
+    },
+    {
+      "seconds": [
+        15,
+        20
+      ],
+      "samples": 17,
+      "m1": {
+        "speed": -32.0,
+        "duty": 32.08
+      },
+      "m2": {
+        "speed": 37.86,
+        "duty": 30.4
+      },
+      "speed_magnitude_difference_rms": 15.51
+    }
+  ]
+}

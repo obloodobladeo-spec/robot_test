@@ -1,0 +1,72 @@
+[
+  {
+    "target": 50,
+    "source": "floor_short_50_210209.json",
+    "tail_samples": 22,
+    "m1": {
+      "speed_mean": 48.429781818181816,
+      "speed_min": 16.823,
+      "speed_max": 72.8996,
+      "duty_mean": 10.870877272727274
+    },
+    "m2": {
+      "speed_mean": 43.847877272727274,
+      "speed_min": 16.7523,
+      "speed_max": 69.8013,
+      "duty_mean": 11.0435
+    }
+  },
+  {
+    "target": -50,
+    "source": "floor_short_-50_210135.json",
+    "tail_samples": 21,
+    "m1": {
+      "speed_mean": -47.53158571428571,
+      "speed_min": -50.4689,
+      "speed_max": -46.2632,
+      "duty_mean": 10.054985714285714
+    },
+    "m2": {
+      "speed_mean": -47.8637380952381,
+      "speed_min": -50.2569,
+      "speed_max": -46.0688,
+      "duty_mean": 9.694395238095238
+    }
+  },
+  {
+    "target": 100,
+    "source": "floor_short_100_210220.json",
+    "valid_for_unobstructed_comparison": false,
+    "user_observation": "앞에 장애물이 있었음. 모터1 평균 77.17mm/s를 포함한 이 시험은 자유 주행 성능 비교에서 제외합니다.",
+    "tail_samples": 21,
+    "m1": {
+      "speed_mean": 77.17206666666667,
+      "speed_min": 39.2536,
+      "speed_max": 114.957,
+      "duty_mean": 22.481604761904762
+    },
+    "m2": {
+      "speed_mean": 96.39221904761905,
+      "speed_min": 64.2172,
+      "speed_max": 122.8502,
+      "duty_mean": 16.30032380952381
+    }
+  },
+  {
+    "target": -100,
+    "source": "floor_short_-100_210231.json",
+    "tail_samples": 21,
+    "m1": {
+      "speed_mean": -96.66535714285715,
+      "speed_min": -112.1532,
+      "speed_max": -68.6938,
+      "duty_mean": 15.45184761904762
+    },
+    "m2": {
+      "speed_mean": -97.12346666666666,
+      "speed_min": -121.4542,
+      "speed_max": -68.4052,
+      "duty_mean": 14.91095238095238
+    }
+  }
+]

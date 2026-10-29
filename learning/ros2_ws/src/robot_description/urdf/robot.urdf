@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<robot name="study_robot">
+
+  <!-- 로봇 전체의 기준 좌표계 -->
+  <link name="base_link"/>
+
+  <!-- 차체 외형 -->
+  <link name="chassis_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+
+      <geometry>
+        <box size="0.25 0.18 0.0564"/>
+	    </geometry>
+
+	    <material name="body_blue">
+	      <color rgba="0.2 0.5 0.9 1.0"/>
+	    </material>
+	  </visual>
+
+    <visual>
+      <origin xyz="0.042 0 0.0432" rpy="0 0 0"/>
+
+      <geometry>
+        <cylinder radius="0.058" length="0.03"/>
+      </geometry>
+
+      <material name="body_blue"/>
+    </visual>
+  </link>
+
+  <!-- 기준 좌표에 차체를 고정 연결 -->
+  <joint name="chassis_joint" type="fixed">
+  	<parent link="base_link"/>
+  	<child link="chassis_link"/>
+  	<origin xyz="0.108 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <material name="wheel_black">
+    <color rgba= "0.1 0.1 0.1 1.0"/>
+  </material>
+
+  <link name="front_left_wheel_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796 0 0"/>
+
+      <geometry>
+        <cylinder radius="0.055" length="0.045"/>
+      </geometry>
+
+      <material name="wheel_black"/>
+    </visual>
+  </link>
+
+  <joint name="front_left_wheel_joint" type="fixed">
+    <parent link="chassis_link"/>
+    <child link="front_left_wheel_link"/>
+    <origin xyz="0.092 0.115 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="front_right_wheel_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796 0 0"/>
+
+      <geometry>
+        <cylinder radius="0.055" length="0.045"/>
+      </geometry>
+
+      <material name="wheel_black"/>
+    </visual>
+  </link>
+
+  <joint name="front_right_wheel_joint" type="fixed">
+    <parent link="chassis_link"/>
+    <child link="front_right_wheel_link"/>
+    <origin xyz="0.092 -0.115 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="left_wheel_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796 0 0"/>
+
+      <geometry>
+        <cylinder radius="0.055" length="0.045"/>
+      </geometry>
+
+      <material name="wheel_black"/>
+    </visual>
+  </link>
+
+  <joint name="left_whell_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="left_wheel_link"/>
+
+    <origin xyz="0 0.115 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <link name="right_wheel_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.570796 0 0"/>
+
+      <geometry>
+        <cylinder radius="0.055" length="0.045"/>
+      </geometry>
+
+      <material name="wheel_black"/>
+    </visual>
+  </link>
+
+  <joint name="right_whell_joint" type="continuous">
+    <parent link="base_link"/>
+    <child link="right_wheel_link"/>
+
+    <origin xyz="0 -0.115 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+  </joint>
+
+  <link name="laser">
+    <visual>
+      <origin xyz="0 0 -0.00915" rpy="0 0 0"/>
+
+      <geometry>
+        <cylinder radius="0.0278" length="0.0413"/>
+      </geometry>
+
+      <material name="laser_red">
+        <color rgba="1 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="laser_joint" type="fixed">
+    <parent link="chassis_link"/>
+    <child link="laser"/>
+
+    <origin xyz="0.042 0 0.088" rpy="0 0 0"/>
+  </joint>
+
+
+
+</robot>

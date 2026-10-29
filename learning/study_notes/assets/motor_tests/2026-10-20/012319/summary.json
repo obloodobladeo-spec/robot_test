@@ -1,0 +1,52 @@
+[
+  {
+    "target": 50,
+    "motors": {
+      "m1": {
+        "first_nonzero_ramp_s": 0.53,
+        "reached_ramp_target_s": 5.47,
+        "last5_speed_mean": 50.17,
+        "last5_speed_range": [
+          47.67,
+          51.87
+        ],
+        "last5_duty_mean": 7.79
+      },
+      "m2": {
+        "first_nonzero_ramp_s": 0.53,
+        "reached_ramp_target_s": 5.47,
+        "last5_speed_mean": 50.22,
+        "last5_speed_range": [
+          48.86,
+          51.65
+        ],
+        "last5_duty_mean": 7.56
+      }
+    }
+  },
+  {
+    "target": -50,
+    "motors": {
+      "m1": {
+        "first_nonzero_ramp_s": 0.51,
+        "reached_ramp_target_s": 5.36,
+        "last5_speed_mean": -49.96,
+        "last5_speed_range": [
+          -51.87,
+          -47.67
+        ],
+        "last5_duty_mean": 7.8
+      },
+      "m2": {
+        "first_nonzero_ramp_s": 0.51,
+        "reached_ramp_target_s": 5.36,
+        "last5_speed_mean": -49.91,
+        "last5_speed_range": [
+          -51.65,
+          -48.86
+        ],
+        "last5_duty_mean": 7.55
+      }
+    }
+  }
+]

@@ -1,5 +1,24 @@
 # robot_test
 
+## 현재 학습 코드와 전체 복습 — 2026-10-29
+
+STM32 타이머·PWM부터 모터 PI 제어, ROS 2 통신·오도메트리, URDF·TF·RViz, C1 라이다까지의 학습을 모았습니다.
+
+- **[전체 학습 순서·내용·실행법](learning/README.md)**
+- [STM32 학습 프로젝트](learning/stm32/): 현재 프로젝트 `encoder_basic` 포함
+- [ROS 2 패키지](learning/ros2_ws/src/): `motor_bridge`, `robot_description`, 공식 `sllidar_ros2`
+- [날짜별 원본 노트](learning/study_notes/notes/2026/10/)와 [모터 시험 자료](learning/study_notes/assets/motor_tests/)
+- [하드웨어 기록](learning/hardware/README.md), [최근 치수·상태 보충](learning/hardware/SNAPSHOT_NOTES.md)
+- [이번 업로드 검증 범위](learning/VALIDATION.md)
+
+**현재 학습 코드는 `learning/`에서 시작하세요.** 아래의 기존 독립 시험 패키지와 시리얼 규약이 다릅니다. 현재 학습은 `V=… W=…`, 기존 독립 패키지는 CRC 프레임이므로 펌웨어와 브리지를 섞어 사용하지 않습니다. 기존 파일과 이전 설명 전체는 유지했고 [README_LEGACY.md](README_LEGACY.md)에도 보존했습니다.
+
+WSL의 간헐적 노드 발견 문제는 미해결입니다. IMU·EKF·SLAM·Nav2는 계획이며, Gazebo는 원래 학습 순서에 추가하지 않았습니다.
+
+---
+
+아래는 **이전 독립 시험 패키지**의 구성과 실행 안내입니다. 당시 미확인 항목과 기본값은 현재 학습 상태를 의미하지 않습니다.
+
 ## 통합 구성과 앞으로의 계획 — 2026-10-23
 
 - [STM32·Jetson·C1·IMU 구성](docs/ARCHITECTURE.md)

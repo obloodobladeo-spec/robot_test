@@ -1,0 +1,469 @@
+{
+  "phase": "floor_short",
+  "target": 50,
+  "requested_seconds": 1,
+  "started": "2026-10-19T21:00:50.183617",
+  "initial": {
+    "halted": false,
+    "arr": 4199,
+    "m1": {
+      "target": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": 0.0,
+      "integral": 0.0,
+      "kp": 0.2,
+      "ki": 0.1,
+      "delta": 0,
+      "direction": -1,
+      "ccr": 0
+    },
+    "m2": {
+      "target": 0.0,
+      "speed": 0.0,
+      "rpm": 0.0,
+      "duty": 0.0,
+      "error": 0.0,
+      "integral": 0.0,
+      "kp": 0.2,
+      "ki": 0.1,
+      "delta": 0,
+      "direction": -1,
+      "ccr": 0
+    }
+  },
+  "rows": [
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 50.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 50.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 50.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 50.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "elapsed": 0.17199999999866122
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 50.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 50.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 50.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 50.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": -1,
+        "ccr": 0
+      },
+      "elapsed": 0.2809999999990396
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 50.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 50.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 50.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 50.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "elapsed": 0.35900000000037835
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 50.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 10.5,
+        "error": 50.0,
+        "integral": 0.5,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 441
+      },
+      "m2": {
+        "target": 50.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 10.5,
+        "error": 50.0,
+        "integral": 0.5,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 441
+      },
+      "elapsed": 0.43699999999807915
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 50.0,
+        "speed": 30.8421,
+        "rpm": 5.3545,
+        "duty": 4.5232,
+        "error": 19.1579,
+        "integral": 0.6916,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 22,
+        "direction": 1,
+        "ccr": 189
+      },
+      "m2": {
+        "target": 50.0,
+        "speed": 29.3165,
+        "rpm": 5.0897,
+        "duty": 4.8435,
+        "error": 20.6835,
+        "integral": 0.7068,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 21,
+        "direction": 1,
+        "ccr": 203
+      },
+      "elapsed": 0.5469999999986612
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 50.0,
+        "speed": 23.8325,
+        "rpm": 4.1376,
+        "duty": 6.1867,
+        "error": 26.1675,
+        "integral": 0.9533,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 17,
+        "direction": 1,
+        "ccr": 259
+      },
+      "m2": {
+        "target": 50.0,
+        "speed": 18.1483,
+        "rpm": 3.1508,
+        "duty": 7.3957,
+        "error": 31.8517,
+        "integral": 1.0254,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 13,
+        "direction": 1,
+        "ccr": 310
+      },
+      "elapsed": 0.625
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 50.0,
+        "speed": 11.2153,
+        "rpm": 1.9471,
+        "duty": 9.098,
+        "error": 38.7847,
+        "integral": 1.3411,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 8,
+        "direction": 1,
+        "ccr": 382
+      },
+      "m2": {
+        "target": 50.0,
+        "speed": 15.3563,
+        "rpm": 2.666,
+        "duty": 8.3005,
+        "error": 34.6437,
+        "integral": 1.3718,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 11,
+        "direction": 1,
+        "ccr": 348
+      },
+      "elapsed": 0.7190000000009604
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 50.0,
+        "speed": 11.2153,
+        "rpm": 1.9471,
+        "duty": 9.098,
+        "error": 38.7847,
+        "integral": 1.3411,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 8,
+        "direction": 1,
+        "ccr": 382
+      },
+      "m2": {
+        "target": 50.0,
+        "speed": 15.3563,
+        "rpm": 2.666,
+        "duty": 8.3005,
+        "error": 34.6437,
+        "integral": 1.3718,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 11,
+        "direction": 1,
+        "ccr": 348
+      },
+      "elapsed": 0.8119999999980791
+    }
+  ],
+  "status": "completed",
+  "stop": [
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      }
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      }
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      }
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      }
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      }
+    },
+    {
+      "halted": false,
+      "arr": 4199,
+      "m1": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      },
+      "m2": {
+        "target": 0.0,
+        "speed": 0.0,
+        "rpm": 0.0,
+        "duty": 0.0,
+        "error": 0.0,
+        "integral": 0.0,
+        "kp": 0.2,
+        "ki": 0.1,
+        "delta": 0,
+        "direction": 1,
+        "ccr": 0
+      }
+    }
+  ]
+}
