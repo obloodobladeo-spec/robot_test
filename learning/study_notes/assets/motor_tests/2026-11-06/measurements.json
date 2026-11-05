@@ -1,0 +1,204 @@
+{
+  "source": "사용자 대화 제공 좌표 및 줄자 거리; 2026-11-06",
+  "distance_definition": "start/end chord, not path length",
+  "records": [
+    {
+      "group": "A",
+      "trial": 1,
+      "start_xy_m": [
+        0.221,
+        0.027
+      ],
+      "end_xy_m": [
+        0.413,
+        0.058
+      ],
+      "actual_chord_cm": 18.5,
+      "odom_chord_cm": 19.448650338776723,
+      "error_cm": 0.9486503387767229,
+      "error_percent": 5.127839669063367,
+      "odom_yaw_delta_rad": 0.035,
+      "included": true
+    },
+    {
+      "group": "A",
+      "trial": 2,
+      "start_xy_m": [
+        0.612,
+        0.095
+      ],
+      "end_xy_m": [
+        0.806,
+        0.108
+      ],
+      "actual_chord_cm": 18.5,
+      "odom_chord_cm": 19.443507913954218,
+      "error_cm": 0.9435079139542175,
+      "error_percent": 5.100042778130906,
+      "odom_yaw_delta_rad": 0.039,
+      "included": true
+    },
+    {
+      "group": "A",
+      "trial": 3,
+      "start_xy_m": [
+        0.818,
+        0.108
+      ],
+      "end_xy_m": [
+        1.015,
+        0.104
+      ],
+      "actual_chord_cm": 18.7,
+      "odom_chord_cm": 19.704060495238025,
+      "error_cm": 1.0040604952380257,
+      "error_percent": 5.369307461165913,
+      "odom_yaw_delta_rad": 0.041,
+      "included": true
+    },
+    {
+      "group": "A",
+      "trial": 4,
+      "start_xy_m": [
+        1.116,
+        0.043
+      ],
+      "end_xy_m": [
+        1.238,
+        -0.174
+      ],
+      "actual_chord_cm": 24,
+      "odom_chord_cm": 24.89437687510976,
+      "error_cm": 0.89437687510976,
+      "error_percent": 3.7265703129573335,
+      "odom_yaw_delta_rad": 0.035,
+      "included": true
+    },
+    {
+      "group": "A",
+      "trial": 5,
+      "start_xy_m": [
+        0.001,
+        0
+      ],
+      "end_xy_m": [
+        0.282,
+        0.006
+      ],
+      "actual_chord_cm": 27.2,
+      "odom_chord_cm": 28.106404963993526,
+      "error_cm": 0.906404963993527,
+      "error_percent": 3.332371191152673,
+      "odom_yaw_delta_rad": 0.042,
+      "included": true
+    },
+    {
+      "group": "A",
+      "trial": 6,
+      "start_xy_m": [
+        0.761,
+        0.049
+      ],
+      "end_xy_m": [
+        1.145,
+        0.103
+      ],
+      "actual_chord_cm": 37.5,
+      "odom_chord_cm": 38.777828716935666,
+      "error_cm": 1.277828716935666,
+      "error_percent": 3.4075432451617758,
+      "odom_yaw_delta_rad": 0.045,
+      "included": true
+    },
+    {
+      "group": "A",
+      "trial": 7,
+      "start_xy_m": [
+        1.137,
+        0.102
+      ],
+      "end_xy_m": [
+        1.499,
+        0.153
+      ],
+      "actual_chord_cm": null,
+      "odom_chord_cm": 36.557488972849335,
+      "error_cm": null,
+      "error_percent": null,
+      "odom_yaw_delta_rad": 0.048,
+      "included": false
+    },
+    {
+      "group": "A",
+      "trial": 8,
+      "start_xy_m": [
+        1.491,
+        0.152
+      ],
+      "end_xy_m": [
+        1.919,
+        0.261
+      ],
+      "actual_chord_cm": 43,
+      "odom_chord_cm": 44.166163519146636,
+      "error_cm": 1.166163519146636,
+      "error_percent": 2.712008184061944,
+      "odom_yaw_delta_rad": 0.046,
+      "included": true
+    },
+    {
+      "group": "B",
+      "trial": 1,
+      "start_xy_m": [
+        1.927,
+        0.263
+      ],
+      "end_xy_m": [
+        2.259,
+        0.362
+      ],
+      "actual_chord_cm": 34,
+      "odom_chord_cm": 34.64462440264,
+      "error_cm": 0.6446244026399981,
+      "error_percent": 1.8959541254117591,
+      "odom_yaw_delta_rad": 0.028,
+      "included": true
+    },
+    {
+      "group": "B",
+      "trial": 2,
+      "start_xy_m": [
+        2.259,
+        0.362
+      ],
+      "end_xy_m": [
+        2.613,
+        0.453
+      ],
+      "actual_chord_cm": null,
+      "odom_chord_cm": 36.55092338094895,
+      "error_cm": null,
+      "error_percent": null,
+      "odom_yaw_delta_rad": 0.027,
+      "included": false
+    },
+    {
+      "group": "B",
+      "trial": 3,
+      "start_xy_m": [
+        2.918,
+        0.539
+      ],
+      "end_xy_m": [
+        3.219,
+        0.633
+      ],
+      "actual_chord_cm": 30.8,
+      "odom_chord_cm": 31.5336328386058,
+      "error_cm": 0.7336328386058,
+      "error_percent": 2.3819248006681817,
+      "odom_yaw_delta_rad": 0.033,
+      "included": true
+    }
+  ]
+}
