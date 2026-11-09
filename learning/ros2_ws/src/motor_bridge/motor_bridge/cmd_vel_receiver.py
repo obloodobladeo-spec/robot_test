@@ -45,7 +45,7 @@ class CmdVelReceiver(Node):
 
         self.wheel_speed_pub = self.create_publisher(Float64MultiArray, '/wheel_speeds', 10)
 
-        self.wheel_track_m = 0.230
+        self.wheel_track_m = 0.234
 
         self.odom_pub = self.create_publisher(Odometry, '/odom', 10)
 

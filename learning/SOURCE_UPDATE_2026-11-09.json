@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-09",
+  "base_commit": "e1515e21006ea26dfa1ad4e96acbea13dca2da24",
+  "wheel_diameter_mm": 110,
+  "nominal_wheel_circumference_mm": 345.6,
+  "wheel_track_mm": 234,
+  "provisional_counts_per_turn": {
+    "motor1": 2475.6,
+    "motor2": 2465.2
+  },
+  "cpr_remeasurement_pending": true,
+  "note": "Existing snapshot line endings retained. Historical 2026-10-29 manifest and checksums are not a manifest of this update.",
+  "files": [
+    {
+      "path": "learning/stm32/encoder_basic/Core/Src/main.c",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encoder_basic\\Core\\Src\\main.c",
+      "sha256": "cc9bfcb8ec4fcda6e4bb4bb47abb49d15c03c0f358d031f153be363aa87a6ffd",
+      "source_sha256": "cc9bfcb8ec4fcda6e4bb4bb47abb49d15c03c0f358d031f153be363aa87a6ffd"
+    },
+    {
+      "path": "learning/stm32/encoder_basic/Core/Inc/robot_control.h",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encoder_basic\\Core\\Inc\\robot_control.h",
+      "sha256": "faedc1e8d1c4f89ca0c98edfa8fcd8ea9464ca2722b1d68f57b96fa08f34d43a",
+      "source_sha256": "faedc1e8d1c4f89ca0c98edfa8fcd8ea9464ca2722b1d68f57b96fa08f34d43a"
+    },
+    {
+      "path": "learning/stm32/encorder_test/.cproject",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\.cproject",
+      "sha256": "f7923cad342bf16dd92e0850e9dcfaf253d9ab5f31a0b4801b27119be3bafe79",
+      "source_sha256": "f7923cad342bf16dd92e0850e9dcfaf253d9ab5f31a0b4801b27119be3bafe79"
+    },
+    {
+      "path": "learning/stm32/encorder_test/encorder_test.ioc",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\encorder_test.ioc",
+      "sha256": "b540ebddc2a061af7a77bc99790919c3c5aa75473f89dcd69a7cdacb9386012e",
+      "source_sha256": "59bf264d3720435b5eeec4d302ab01a0243c97daeac9e76d3ac977e05ae39efe"
+    },
+    {
+      "path": "learning/stm32/encorder_test/Core/Src/main.c",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\Core\\Src\\main.c",
+      "sha256": "d20dbd59527107914f0921841ea22619c3201209e7249e51df247c96eaa5caae",
+      "source_sha256": "57f7f3e170687acc7c56afb9b814f8ba4a594fcacd426bdb910bd3ae49ae940f"
+    },
+    {
+      "path": "learning/stm32/encorder_test/Core/Src/stm32f4xx_hal_msp.c",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\Core\\Src\\stm32f4xx_hal_msp.c",
+      "sha256": "e0acc82aa98135f3b131a6b6f66a318c132f7d5e7d367035817059be674880ad",
+      "source_sha256": "f5632fe596229b6482799af35b833fef15e3efd07c0034403c5416d4ec5ca694"
+    },
+    {
+      "path": "learning/stm32/encorder_test/Core/Src/stm32f4xx_it.c",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\Core\\Src\\stm32f4xx_it.c",
+      "sha256": "4a870e4b5316004f85e0dc40067694fc54647c15f3ebbe79f5935ab998ac2d31",
+      "source_sha256": "ee3b87932aaace954a744d8db7f8dd23e2b5280cbca49d3b1b5924a646f9bc2b"
+    },
+    {
+      "path": "learning/stm32/encorder_test/Core/Inc/main.h",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\Core\\Inc\\main.h",
+      "sha256": "030b4cb46fc627ad31b67ea9c8ef7a0af8916064a8bb51041ed762f68913a9f9",
+      "source_sha256": "2dc000d43f44bfc196d2c344ad782db198edd623c9226b751ffcbdbf9888da62"
+    },
+    {
+      "path": "learning/stm32/encorder_test/Core/Inc/stm32f4xx_it.h",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\Core\\Inc\\stm32f4xx_it.h",
+      "sha256": "6992f2933cc2d15f7f50c515090d87dc2e516e11deaa73eb5392001fa30e4078",
+      "source_sha256": "a8b16d0e7cf5defc41dc52c9cc1341ca4deba9789cc8e60ea6fb76a8503b5a6d"
+    },
+    {
+      "path": "learning/stm32/encorder_test/Core/Inc/stm32f4xx_hal_conf.h",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\Core\\Inc\\stm32f4xx_hal_conf.h",
+      "sha256": "cd0a0dac1634b690efee91edd42337a8cc8740d7d50a8fb9ead0556c9851f698",
+      "source_sha256": "274000e68db24aefdcd808fd1a7908bd68279025eea861b1fba7be759663db62"
+    },
+    {
+      "path": "learning/stm32/encorder_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_tim.c",
+      "sha256": "a7dea3b10a771a380915007b9ece123654c6bd2a40f611102220df9bfdd143e4",
+      "source_sha256": "a7dea3b10a771a380915007b9ece123654c6bd2a40f611102220df9bfdd143e4"
+    },
+    {
+      "path": "learning/stm32/encorder_test/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_tim_ex.c",
+      "sha256": "4471b582d56545fbd48725401249b4a2a728ccc0d933b3f1a02e2b09dda8d8fa",
+      "source_sha256": "4471b582d56545fbd48725401249b4a2a728ccc0d933b3f1a02e2b09dda8d8fa"
+    },
+    {
+      "path": "learning/stm32/encorder_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\stm32f4xx_hal_tim.h",
+      "sha256": "63f00354e2a5e8d3a8d211fc736517273e12b99a1eb782aa7a2670cb1264a16d",
+      "source_sha256": "63f00354e2a5e8d3a8d211fc736517273e12b99a1eb782aa7a2670cb1264a16d"
+    },
+    {
+      "path": "learning/stm32/encorder_test/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\Drivers\\STM32F4xx_HAL_Driver\\Inc\\stm32f4xx_hal_tim_ex.h",
+      "sha256": "aa6695d64677e8a7b46d719da3d81049290f42383c17e76271605bc68143fd1e",
+      "source_sha256": "aa6695d64677e8a7b46d719da3d81049290f42383c17e76271605bc68143fd1e"
+    },
+    {
+      "path": "learning/stm32/encorder_test/README.md",
+      "source": "C:\\Users\\heosi\\STM32CubeIDE\\workspace_2.2.0\\encorder_test\\README.md",
+      "sha256": "b0dd051bbc9664b1e33d0c092dd1a1205f2de37b8dc1e91b6ae5ad3d59c7cde7",
+      "source_sha256": "b0dd051bbc9664b1e33d0c092dd1a1205f2de37b8dc1e91b6ae5ad3d59c7cde7"
+    },
+    {
+      "path": "learning/ros2_ws/src/motor_bridge/motor_bridge/cmd_vel_receiver.py",
+      "source": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\heosi\\ros2_study\\src\\motor_bridge\\motor_bridge\\cmd_vel_receiver.py",
+      "sha256": "f3ea745b28521307515a2bb9b872ba804af6c10338d742aeae490f54f85bd077",
+      "source_sha256": "f3ea745b28521307515a2bb9b872ba804af6c10338d742aeae490f54f85bd077"
+    },
+    {
+      "path": "learning/wsl/fastdds_udp_only.xml",
+      "source": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\heosi\\.config\\ros\\fastdds_udp_only.xml",
+      "sha256": "8571dde8436e4bbd6803618cb2a1244b9e71d05e7802853560bd6e5a17ca8c0c",
+      "source_sha256": "8571dde8436e4bbd6803618cb2a1244b9e71d05e7802853560bd6e5a17ca8c0c"
+    },
+    {
+      "path": "learning/wsl/cli_daemon_autostart.bash",
+      "source": "\\\\wsl.localhost\\Ubuntu-22.04\\home\\heosi\\.config\\ros\\cli_daemon_autostart.bash",
+      "sha256": "a65e074447ce717c1c68346eddd83bec10e941918c8ab5273590bc1ac6be8160",
+      "source_sha256": "a65e074447ce717c1c68346eddd83bec10e941918c8ab5273590bc1ac6be8160"
+    },
+    {
+      "path": "learning/ros2_ws/src/robot_description/urdf/robot.urdf",
+      "source": "existing repository URDF with drive-wheel center spacing changed only; existing laser yaw preserved",
+      "sha256": "205ecbe63def0f0048383596554d619d8ed78efe694021e8662a0ec69b45a54a"
+    }
+  ]
+}

@@ -10,7 +10,7 @@
 
 #include "motor_control.h"
 
-#define WHEEL_TRACK_MM 230.0f
+#define WHEEL_TRACK_MM 234.0f
 
 typedef struct {
 	float delta_s_mm;

@@ -67,7 +67,7 @@ Motor motor1 = {
 		.encoder_bits = 32U,
 		.encoder_sign = 1,
 
-		.counts_per_turn = 2465.2f,
+		.counts_per_turn = 2475.6f,
 		.wheel_circumference_mm = 345.6f
 	}
 };
@@ -84,7 +84,7 @@ Motor motor2 = {
 		.encoder_bits = 16U,
 		.encoder_sign = 1,
 
-		.counts_per_turn = 2475.6f,
+		.counts_per_turn = 2465.2f,
 		.wheel_circumference_mm = 345.6f
 	}
 };
@@ -120,6 +120,7 @@ static uint8_t uart_line_ready = 0U;
 static uint8_t uart_discard_line = 0U;
 
 static uint32_t last_command_tick = 0U;
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -335,19 +336,18 @@ int main(void)
     /* USER CODE BEGIN 3 */
 	  UART_ReceiveTask();
 
-	  if (uart_line_ready != 0U) {
-	      UART_ApplyCommand();
+	    if (uart_line_ready != 0U) {
+	        UART_ApplyCommand();
 
-	      /* 정상·잘못된 명령 모두 처리가 끝나면 다음 줄을 받습니다. */
-	      uart_line_ready = 0U;
-	  }
+	        uart_line_ready = 0U;
+	    }
 
 	  const uint32_t now = HAL_GetTick();
 
-	  if ((uint32_t)(now - last_command_tick) >= COMMAND_TIMEOUT_MS) {
-	      linear_speed_mm_s = 0.0f;
-	      angular_speed_rad_s = 0.0f;
-	  }
+	    if ((uint32_t)(now - last_command_tick) >= COMMAND_TIMEOUT_MS) {
+	        linear_speed_mm_s = 0.0f;
+	        angular_speed_rad_s = 0.0f;
+	    }
 
 
 	  if ((uint32_t)(now - previous_tick) >= 100U){
