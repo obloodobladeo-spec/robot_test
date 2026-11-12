@@ -45,8 +45,8 @@ HAL_StatusTypeDef Motor_Init(Motor *motor){
 	motor->state = (MotorState){
 		/* 반복한 바닥 시험에서 목표 부근의 속도 변동이 작았던 값입니다.
 		 * Kp가 크면 속도 변화에 따른 듀티 변화도 커집니다. */
-		.kp = 0.1f,
-		.ki = 0.1f,
+		.kp = 0.15f,
+		.ki = 0.15f,
 		.direction = 1
 	};
 

@@ -67,7 +67,7 @@ Motor motor1 = {
 		.encoder_bits = 32U,
 		.encoder_sign = 1,
 
-		.counts_per_turn = 2475.6f,
+		.counts_per_turn = 2473.6f,
 		.wheel_circumference_mm = 345.6f
 	}
 };
@@ -84,7 +84,7 @@ Motor motor2 = {
 		.encoder_bits = 16U,
 		.encoder_sign = 1,
 
-		.counts_per_turn = 2465.2f,
+		.counts_per_turn = 2464.5f,
 		.wheel_circumference_mm = 345.6f
 	}
 };
