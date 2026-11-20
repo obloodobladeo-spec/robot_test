@@ -1,0 +1,5451 @@
+﻿TIME=0.0136281 PHASE=before
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 00000000 00000000 00000000
+0x20000030 : 00000000 00000000 00000000 80000000
+0x20000040 : 00000000 3DCCCCCD 3DCCCCCD 00005807
+0x20000050 : 00000000 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 00000000
+0x20000080 : 00000000 00000000 00000000 00000000
+0x20000090 : 00000000 80000000 00000000 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005749 00000000 00000001
+0x200000B0 : 20000000 20000058 436A0000 00000000
+0x200000C0 : 00000000 454321A7 C399ACD4 BD8370E0
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 00000000 00000000 00000001 000DA953
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000000 00000000
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005807
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005749
+
+
+
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+Write 32-bit data
+w @0x200001d4:  0x42480000  0x00000000
+
+
+Downloading...
+�������������������������������������������������� 0%
+�������������������������������������������������� 100%
+32-bit data download complete
+
+TIME=0.3447298 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 41200000 00000000
+0x20000030 : 00000000 00000000 3F8CCCCD 41200000
+0x20000040 : 3DCCCCCD 3DCCCCCD 3DCCCCCD 00005807
+0x20000050 : 00000000 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 41200000 00000000 00000000 00000000
+0x20000090 : 3F8CCCCD 41200000 3DCCCCCD 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005749 00000000 00000001
+0x200000B0 : 20000000 20000058 436A0000 00000000
+0x200000C0 : 00000000 454321A7 C399ACD4 BD8370E0
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DAA8D
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000002E 0000002E
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005807
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005749
+
+
+
+TIME=0.463646 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 41A00000 00000000
+0x20000030 : 00000000 00000000 40133333 41A00000
+0x20000040 : 3E99999A 3DCCCCCD 3DCCCCCD 00005807
+0x20000050 : 00000000 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 41A00000 00000000 00000000 00000000
+0x20000090 : 40133333 41A00000 3E99999A 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005749 00000000 00000001
+0x200000B0 : 20000000 20000058 436A0000 00000000
+0x200000C0 : 00000000 454321A7 C399ACD4 BD8370E0
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DAB0A
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000060 00000060
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005807
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005749
+
+
+
+TIME=0.5863888 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 41F00000 00000000
+0x20000030 : 00000000 00000000 40666666 41F00000
+0x20000040 : 3F19999A 3DCCCCCD 3DCCCCCD 00005807
+0x20000050 : 00000000 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 41F00000 00000000 00000000 00000000
+0x20000090 : 40666666 41F00000 3F19999A 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005749 00000000 00000001
+0x200000B0 : 20000000 20000058 436A0000 00000000
+0x200000C0 : 00000000 454321A7 C399ACD4 BD8370E0
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DAB83
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000097 00000097
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005808
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005749
+
+
+
+TIME=0.708662 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42200000 3FB2D5F1
+0x20000030 : 3E0F118D 3E786206 409B14FF 421A6950
+0x20000040 : 3F7C6C5D 3DCCCCCD 3DCCCCCD 00005808
+0x20000050 : 00000001 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42200000 00000000 00000000 00000000
+0x20000090 : 40A00000 42200000 3F800000 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005749 00000000 00000001
+0x200000B0 : 20000000 20000058 436A0000 3D8F118D
+0x200000C0 : BA1C84FB 454322C5 C399AD67 BD84A9EA
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DABFC
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000000CB 000000D2
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005809
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000574B
+
+
+
+TIME=0.8314967 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 3FB2D5F1
+0x20000030 : 3E0F118D 3E786206 40DA3016 42426950
+0x20000040 : 3FFAA28A 3DCCCCCD 3DCCCCCD 0000580A
+0x20000050 : 00000001 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 40337EFC 3E8F98CA 3EF94CD1
+0x20000090 : 40D53AF0 423CC810 3FF8D1F6 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000574D 00000002 00000001
+0x200000B0 : 20000000 20000058 436A0000 3E572190
+0x200000C0 : 3A1DACE2 4543297B C399B0DA BD823336
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DAC7D
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000011E 00000117
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 0000580A
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000574D
+
+
+
+TIME=0.9596284 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 3FB2D5F1
+0x20000030 : 3E0F118D 3E786206 40E9BDA1 42426950
+0x20000040 : 401C6C5C 3DCCCCCD 3DCCCCCD 0000580B
+0x20000050 : 00000001 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 40337EFC 3E8F98CA 3EF94CD1
+0x20000090 : 40E4552F 423CC810 401A9D78 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000574F 00000002 00000001
+0x200000B0 : 20000000 20000058 436A0000 3E572190
+0x200000C0 : 3A1DACE2 45432CD6 C399B28D BD80F7DC
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DAD2D
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000126 0000013F
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005811
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005751
+
+
+
+TIME=1.1365124 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4032D5F1
+0x20000030 : 3E8F118D 3EF86206 4100D8B9 423CD2A1
+0x20000040 : 40554515 3DCCCCCD 3DCCCCCD 00005813
+0x20000050 : 00000002 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 40337EFC 3E8F98CA 3EF94CD1
+0x20000090 : 410144D6 423CC810 40570672 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005753 00000002 00000001
+0x200000B0 : 20000000 20000058 436A0000 3E8F552C
+0x200000C0 : 3693F3F7 45433A3C C399B97B BD85D764
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DADCF
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000152 00000153
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005813
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005753
+
+
+
+TIME=1.2988525 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 40862074
+0x20000030 : 3ED69A53 3F3A4984 410DF0C4 42373BF2
+0x20000040 : 40894B2D 3DCCCCCD 3DCCCCCD 00005816
+0x20000050 : 00000003 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41069F3D 3F57652F 3FBAF99C
+0x20000090 : 4106F2A8 42265831 4088D1F5 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005759 00000006 00000001
+0x200000B0 : 20000000 20000058 436A0000 3F21592C
+0x200000C0 : 3AEC8354 4543444C C399BEAD BD822557
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DAE67
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000174 00000162
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005817
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000575A
+
+
+
+TIME=1.4525093 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4132D5F1
+0x20000030 : 3F8F118D 3FF86206 4108F994 421B4A84
+0x20000040 : 4095B78A 3DCCCCCD 3DCCCCCD 0000581E
+0x20000050 : 00000008 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41337EFC 3F8F98CA 3FF94CD1
+0x20000090 : 4108AA5F 421B2041 40953AF0 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005761 00000008 00000001
+0x200000B0 : 20000000 20000058 436A0000 3F8F552C
+0x200000C0 : 3793F3F7 4543562D C399C7C7 BD821C18
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DAEFF
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000167 00000166
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005823
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005765
+
+
+
+TIME=1.6034569 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 411C7B33
+0x20000030 : 3F7A5EB7 3FD955C6 41184DE4 4220E133
+0x20000040 : 40AFE7A0 3DCCCCCD 3DCCCCCD 0000582B
+0x20000050 : 00000007 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41337EFC 3F8F98CA 3FF94CD1
+0x20000090 : 4115135A 421B2041 40AE0CE6 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005771 00000008 00000001
+0x200000B0 : 20000000 20000058 436A0000 3F866413
+0x200000C0 : 3A212499 45437697 C399D7FE BD7CBCF8
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DAF9B
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000018F 00000187
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 0000582D
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005772
+
+
+
+TIME=1.75734 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4132D5F1
+0x20000030 : 3F8F118D 3FF86206 411C47CC 421B4A84
+0x20000040 : 40BC53FC 3DCCCCCD 3DCCCCCD 00005833
+0x20000050 : 00000008 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41337EFC 3F8F98CA 3FF94CD1
+0x20000090 : 411B47D7 421B2041 40BA75E1 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005779 00000008 00000001
+0x200000B0 : 20000000 20000058 436A0000 3F8F552C
+0x200000C0 : 3793F3F7 45438879 C399E0D4 BD7CAA7A
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB035
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000019A 00000197
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005839
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005781
+
+
+
+TIME=1.9133045 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 41862074
+0x20000030 : 3FD69A53 403A4984 411EDE27 4204EFC6
+0x20000040 : 40D362E3 3DCCCCCD 3DCCCCCD 00005847
+0x20000050 : 0000000C 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41869F3D 3FD7652F 403AF99C
+0x20000090 : 411D5EA4 4204B062 40D09694 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000578F 0000000C 00000001
+0x200000B0 : 20000000 20000058 436A0000 3FD6FFC1
+0x200000C0 : 37DDEE7F 4543B76B C399F7A9 BD779376
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB0D7
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001A1 0000019D
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 0000584D
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005796
+
+
+
+TIME=2.0783339 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 41914DD4
+0x20000030 : 3FE87C86 4049CFA5 4121B9EC 41FEB22C
+0x20000040 : 40DD92F9 3DCCCCCD 3DCCCCCD 00005854
+0x20000050 : 0000000D 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41A8470E 40069F3E 4069B804
+0x20000090 : 411B45E6 41E7B8F2 40D9DB6A 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000579E 0000000F 00000001
+0x200000B0 : 20000000 20000058 436A0000 3FFADD81
+0x200000C0 : 3AA0DAA2 4543D6B8 C39A06A9 BD728CA1
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB173
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001A8 00000197
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005861
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000057AE
+
+
+
+TIME=2.22834 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 41A7A891
+0x20000030 : 40062074 4068DBE6 4126FF01 41E8576F
+0x20000040 : 40F10E3C 3DCCCCCD 3DCCCCCD 00005870
+0x20000050 : 0000000F 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41A8470E 40069F3E 4069B804
+0x20000090 : 4124514C 41E7B8F2 40EBF236 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000057BD 0000000F 00000001
+0x200000B0 : 20000000 20000058 436A0000 40065FD9
+0x200000C0 : 380AB59B 454418AF C39A2536 BD6AEEBB
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB1E2
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001B6 000001AF
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005871
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000057BF
+
+
+
+TIME=2.3373932 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 41B2D5F1
+0x20000030 : 400F118D 40786206 41292F17 41DD2A0F
+0x20000040 : 40F9E6F5 3DCCCCCD 3DCCCCCD 00005880
+0x20000050 : 00000010 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41E05EBC 40337EFD 409BD003
+0x20000090 : 411C9C95 41AFA144 40F2F8A9 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000057D1 00000014 00000001
+0x200000B0 : 20000000 20000058 436A0000 40214845
+0x200000C0 : 3B1F68C1 454440F1 C39A374F BD60F82F
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB259
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001BC 0000019B
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005884
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000057D7
+
+
+
+TIME=2.4583106 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 41B2D5F1
+0x20000030 : 400F118D 40786206 412D9B74 41DD2A0F
+0x20000040 : 41015FD7 3DCCCCCD 3DCCCCCD 00005890
+0x20000050 : 00000010 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41D526CD 402A8571 4094059C
+0x20000090 : 412297A2 41BAD933 40FA71FD 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000057E4 00000013 00000001
+0x200000B0 : 20000000 20000058 436A0000 401CCB7F
+0x200000C0 : 3AF0450F 45446815 C39A483D BD597607
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB2CC
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001C7 000001AA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005898
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000057ED
+
+
+
+TIME=2.5735897 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 41C930AF
+0x20000030 : 4020F3BF 408BB724 412D1CCF 41C6CF51
+0x20000040 : 410559BF 3DCCCCCD 3DCCCCCD 000058A2
+0x20000050 : 00000012 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41D526CD 402A8571 4094059C
+0x20000090 : 4126544C 41BAD933 4100F5A8 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000057F7 00000013 00000001
+0x200000B0 : 20000000 20000058 436A0000 4025BC98
+0x200000C0 : 3A278023 45449175 C39A59B9 BD56D806
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB347
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001C6 000001B4
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000058AE
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005807
+
+
+
+TIME=2.6948342 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 41D45E0E
+0x20000030 : 4029E4D8 40937A34 412EA137 41BBA1F2
+0x20000040 : 41091A6D 3DCCCCCD 3DCCCCCD 000058B5
+0x20000050 : 00000013 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42069F3D 4057652F 40BAF99C
+0x20000090 : 411DB9D4 4182C186 41039320 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000580F 00000018 00000001
+0x200000B0 : 20000000 20000058 436A0000 4040A504
+0x200000C0 : 3B471DEE 4544C18E C39A6D57 BD4A6627
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB3B9
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001CA 0000019E
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000058C6
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005821
+
+
+
+TIME=2.8103037 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 41EAB8CD
+0x20000030 : 403BC70A 40A30054 412D76E4 41A54733
+0x20000040 : 410C68A6 3DCCCCCD 3DCCCCCD 000058CA
+0x20000050 : 00000015 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 41F6CE9C 40457217 40AB64D1
+0x20000090 : 412546F3 41993164 4106A379 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005825 00000016 00000001
+0x200000B0 : 20000000 20000058 436A0000 40409C90
+0x200000C0 : 3A293BF7 4544F1A6 C39A803E BD47C137
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB42E
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001C7 000001B1
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000058DE
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000583D
+
+
+
+TIME=2.9279642 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 41DF8B6C
+0x20000030 : 4032D5F0 409B3D44 413688D7 41B07494
+0x20000040 : 41133E53 3DCCCCCD 3DCCCCCD 000058F3
+0x20000050 : 00000014 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42069F3D 4057652F 40BAF99C
+0x20000090 : 4125CBAD 4182C186 410BA4F9 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005856 00000018 00000001
+0x200000B0 : 20000000 20000058 436A0000 40451D90
+0x200000C0 : 3B1FFCB3 45455657 C39AA59C BD33BF51
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB4B9
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001DF 000001B3
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000058FB
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000585E
+
+
+
+TIME=3.0652226 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 41F5E62A
+0x20000030 : 4044B822 40AAC364 4135254A 419A19D6
+0x20000040 : 41165352 3DCCCCCD 3DCCCCCD 00005909
+0x20000050 : 00000016 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42069F3D 4057652F 40BAF99C
+0x20000090 : 41286925 4182C186 410E4271 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000586E 00000018 00000001
+0x200000B0 : 20000000 20000058 436A0000 404E0EA8
+0x200000C0 : 3AA37469 454589CE C39AB76F BD2EA3AE
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB52E
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001DB 000001BA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005915
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000587D
+
+
+
+TIME=3.1823781 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 420089C5
+0x20000030 : 404DA93B 40B28674 4135C4C8 418EEC76
+0x20000040 : 41192F17 3DCCCCCD 3DCCCCCD 00005920
+0x20000050 : 00000017 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42177326 407251D6 40D258D1
+0x20000090 : 41239F22 41423368 41103398 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005889 0000001B 00000001
+0x200000B0 : 20000000 20000058 436A0000 405FFD88
+0x200000C0 : 3B206BAD 4545C1C1 C39AC9FB BD249CF3
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB5A5
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001DD 000001AD
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005932
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000589C
+
+
+
+TIME=3.3118859 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42062074
+0x20000030 : 40569A53 40BA4984 41362B0D 4183BF18
+0x20000040 : 411BD1A2 3DCCCCCD 3DCCCCCD 00005938
+0x20000050 : 00000018 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4211D72D 40695848 40CA8E69
+0x20000090 : 4128081E 4158A34C 41125E30 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000058A3 0000001A 00000001
+0x200000B0 : 20000000 20000058 436A0000 405FF94E
+0x200000C0 : 3AA40860 4545F9B4 C39ADBB3 BD1F7CB0
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB620
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001DE 000001B9
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 0000594D
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000058BD
+
+
+
+TIME=3.4251598 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42062074
+0x20000030 : 40569A53 40BA4984 413BE297 4183BF18
+0x20000040 : 4121892C 3DCCCCCD 3DCCCCCD 00005966
+0x20000050 : 00000018 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4211D72D 40695848 40CA8E69
+0x20000090 : 412C23DD 4158A34C 411679EF 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000058D8 0000001A 00000001
+0x200000B0 : 20000000 20000058 436A0000 405FF94E
+0x200000C0 : 3AA40860 45466880 C39AFBEA BD0DE39E
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB693
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001ED 000001C3
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005968
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000058DB
+
+
+
+TIME=3.538559 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42062074
+0x20000030 : 40569A53 40BA4984 413E8522 4183BF18
+0x20000040 : 41242BB7 3DCCCCCD 3DCCCCCD 0000597E
+0x20000050 : 00000018 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4222AB16 40822278 40E1ED9D
+0x20000090 : 4126E6FA 411553A8 4117F836 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000058F5 0000001D 00000001
+0x200000B0 : 20000000 20000058 436A0000 406D6FA2
+0x200000C0 : 3B47D6EC 4546A3D4 C39B0BA3 BD01662F
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB708
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001F4 000001B6
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005985
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000058FD
+
+
+
+TIME=3.6559219 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42114DD4
+0x20000030 : 40687C86 40C9CFA5 413C3CAB 415AC8B0
+0x20000040 : 41265BCD 3DCCCCCD 3DCCCCCD 00005998
+0x20000050 : 0000001A 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4222AB16 40822278 40E1ED9D
+0x20000090 : 41286541 411553A8 4119767D 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005912 0000001D 00000001
+0x200000B0 : 20000000 20000058 436A0000 407660BB
+0x200000C0 : 3AF328D2 4546E165 C39B1ABF BCF399D1
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB779
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001EE 000001BA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000059A2
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000591E
+
+
+
+TIME=3.7677171 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42114DD4
+0x20000030 : 40687C86 40C9CFA5 413E6CC1 415AC8B0
+0x20000040 : 41288BE3 3DCCCCCD 3DCCCCCD 000059B2
+0x20000050 : 0000001A 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4228470E 40869F3E 40E9B804
+0x20000090 : 41276BB4 40FDC790 411ABB53 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005930 0000001E 00000001
+0x200000B0 : 20000000 20000058 436A0000 407ADD81
+0x200000C0 : 3B20DAA2 45472016 C39B290C BCDF7E7D
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB7EB
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001F3 000001B7
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000059C2
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005942
+
+
+
+TIME=3.8823823 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4216E483
+0x20000030 : 40716D9E 40D192B6 413E2757 41446DF4
+0x20000040 : 412A82BF 3DCCCCCD 3DCCCCCD 000059CD
+0x20000050 : 0000001B 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42337EFC 408F98CA 40F94CD1
+0x20000090 : 4123C0E4 40A40820 411B8D49 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005950 00000020 00000001
+0x200000B0 : 20000000 20000058 436A0000 408427CC
+0x200000C0 : 3B4845D9 45476224 C39B36A9 BCC675C2
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB86C
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001F3 000001AD
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000059E3
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005969
+
+
+
+TIME=4.0133766 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4216E483
+0x20000030 : 40716D9E 40D192B6 41401E33 41446DF4
+0x20000040 : 412C799B 3DCCCCCD 3DCCCCCD 000059E8
+0x20000050 : 0000001B 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4228470E 40869F3E 40E9B804
+0x20000090 : 41298280 40FDC790 411CD21F 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000596E 0000001E 00000001
+0x200000B0 : 20000000 20000058 436A0000 407F560D
+0x200000C0 : 3AF372CE 4547A1F5 C39B428E BCB73E95
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB8E1
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001F8 000001BC
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005A02
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000598D
+
+
+
+TIME=4.130517 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42114DD4
+0x20000030 : 40687C86 40C9CFA5 4146BAA5 415AC8B0
+0x20000040 : 4130D9C7 3DCCCCCD 3DCCCCCD 00005A1C
+0x20000050 : 0000001A 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 421D0F1D 407B4B62 40DA2337
+0x20000090 : 4130FBD4 412BC38C 411FCEAC 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000059A8 0000001C 00000001
+0x200000B0 : 20000000 20000058 436A0000 4071E3F4
+0x200000C0 : 3AA49C4F 45481D1F C39B567D BC98D97C
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB954
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000209 000001D0
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005A1F
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000059AC
+
+
+
+TIME=4.2443525 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 420089C5
+0x20000030 : 404DA93B 40B28674 41504B3D 418EEC76
+0x20000040 : 4133B58C 3DCCCCCD 3DCCCCCD 00005A33
+0x20000050 : 00000017 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42177326 407251D6 40D258D1
+0x20000090 : 41352B5D 41423368 4121BFD3 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000059C3 0000001B 00000001
+0x200000B0 : 20000000 20000058 436A0000 405FFD88
+0x200000C0 : 3B206BAD 4548551C C39B5E4C BC84CC06
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DB9D5
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000222 000001DB
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005A3E
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000059CE
+
+
+
+TIME=4.3731968 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 420089C5
+0x20000030 : 404DA93B 40B28674 41532702 418EEC76
+0x20000040 : 41369151 3DCCCCCD 3DCCCCCD 00005A4A
+0x20000050 : 00000017 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4211D72D 40695848 40CA8E69
+0x20000090 : 41399459 4158A34C 4123EA6B 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000059DD 0000001A 00000001
+0x200000B0 : 20000000 20000058 436A0000 405B80C2
+0x200000C0 : 3AF24AD6 45488BFB C39B6502 BC6B4EB1
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBA71
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000022A 000001E7
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005A63
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000059F8
+
+
+
+TIME=4.5295073 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 420BB724
+0x20000030 : 405F8B6D 40C20C94 41538116 41712370
+0x20000040 : 413B63F1 3DCCCCCD 3DCCCCCD 00005A7C
+0x20000050 : 00000019 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4222AB16 40822278 40E1ED9D
+0x20000090 : 4136489D 411553A8 412759D9 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005A15 0000001D 00000001
+0x200000B0 : 20000000 20000058 436A0000 4071E82E
+0x200000C0 : 3B20B5A8 454902AE C39B7128 BC2E96FC
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBAE2
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000022B 000001DE
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005A80
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005A1A
+
+
+
+TIME=4.6458743 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 421C7B33
+0x20000030 : 407A5EB7 40D955C6 414E89E5 412E1334
+0x20000040 : 413D2193 3DCCCCCD 3DCCCCCD 00005A98
+0x20000050 : 0000001C 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4228470E 40869F3E 40E9B804
+0x20000090 : 41354F10 40FDC790 41289EAF 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005A33 0000001E 00000001
+0x200000B0 : 20000000 20000058 436A0000 4081E74D
+0x200000C0 : 3AA5304F 454943A1 C39B765E BC19F0F2
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBB59
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000021E 000001DB
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005AA0
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005A3C
+
+
+
+TIME=4.7621826 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.24V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42114DD4
+0x20000030 : 40687C86 40C9CFA5 41553287 415AC8B0
+0x20000040 : 413F51A9 3DCCCCCD 3DCCCCCD 00005AB2
+0x20000050 : 0000001A 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4228470E 40869F3E 40E9B804
+0x20000090 : 413693E6 40FDC790 4129E385 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005A51 0000001E 00000001
+0x200000B0 : 20000000 20000058 436A0000 407ADD81
+0x200000C0 : 3B20DAA2 45498258 C39B7A77 BBE37493
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBBCD
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000022F 000001DF
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005AC0
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005A5F
+
+
+
+TIME=4.8787506 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 422211E2
+0x20000030 : 4081A7E8 40E118D7 4150021D 4117B878
+0x20000040 : 4140D611 3DCCCCCD 3DCCCCCD 00005ACF
+0x20000050 : 0000001D 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4228470E 40869F3E 40E9B804
+0x20000090 : 4137D8BC 40FDC790 412B285B 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005A6F 0000001E 00000001
+0x200000B0 : 20000000 20000058 436A0000 40842393
+0x200000C0 : 3A2DDBA0 4549C469 C39B7DF5 BBCDB91F
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBC42
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000222 000001E2
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005AE1
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005A83
+
+
+
+TIME=4.9950687 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 421C7B33
+0x20000030 : 407A5EB7 40D955C6 4153FC05 412E1334
+0x20000040 : 414293B3 3DCCCCCD 3DCCCCCD 00005AEB
+0x20000050 : 0000001C 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 422DE305 408B1C04 40F1826A
+0x20000090 : 4136A5BF 40D0E7D8 412C33C1 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005A8E 0000001F 00000001
+0x200000B0 : 20000000 20000058 436A0000 408425B0
+0x200000C0 : 3AF3BCC1 454A067C C39B80C9 BB90C9EF
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBCB9
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000022C 000001DF
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005B03
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005AAA
+
+
+
+TIME=5.1156307 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 422211E2
+0x20000030 : 4081A7E8 40E118D7 415501C9 4117B878
+0x20000040 : 4145D5BD 3DCCCCCD 3DCCCCCD 00005B24
+0x20000050 : 0000001D 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42337EFC 408F98CA 40F94CD1
+0x20000090 : 41360B48 40A40820 412DD7AD 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005ACE 00000020 00000001
+0x200000B0 : 20000000 20000058 436A0000 4088A059
+0x200000C0 : 3AF406B3 454A8DFE C39B8310 B8CD7D70
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBD57
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000022F 000001DD
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005B31
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005ADC
+
+
+
+TIME=5.2743718 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4227A891
+0x20000030 : 40862074 40E8DBE6 415410B0 41015DBC
+0x20000040 : 414720EA 3DCCCCCD 3DCCCCCD 00005B42
+0x20000050 : 0000001E 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42337EFC 408F98CA 40F94CD1
+0x20000090 : 4136DD3E 40A40820 412EA9A3 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005AEE 00000020 00000001
+0x200000B0 : 20000000 20000058 436A0000 408ADC9F
+0x200000C0 : 3AA5C43D 454AD36C C39B82C4 3A98EC66
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBDF7
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000230 000001DB
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005B61
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005B10
+
+
+
+TIME=5.4356747 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 422D3F41
+0x20000030 : 408A9901 40F09EF7 4154318A 40D605F8
+0x20000040 : 41497E0A 3DCCCCCD 3DCCCCCD 00005B7F
+0x20000050 : 0000001F 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42337EFC 408F98CA 40F94CD1
+0x20000090 : 413847BA 40A40820 4130141F 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005B2F 00000020 00000001
+0x200000B0 : 20000000 20000058 436A0000 408D18E6
+0x200000C0 : 3A2F036B 454B6085 C39B7FAF 3B725F65
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBE98
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000022D 000001E3
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005B93
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005B44
+
+
+
+TIME=5.5952816 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42386CA0
+0x20000030 : 40938A1A 4100128C 41516A6F 40793600
+0x20000040 : 414B2F7C 3DCCCCCD 3DCCCCCD 00005BBF
+0x20000050 : 00000021 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 423EB6ED 40989257 410470CF
+0x20000090 : 4134FBFE 40149130 4131452A 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005B71 00000022 00000001
+0x200000B0 : 20000000 20000058 436A0000 40960E38
+0x200000C0 : 3A302B5A 454BF218 C39B7A96 3BA5158B
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBF32
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000225 000001DB
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005BC6
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005B78
+
+
+
+TIME=5.7507997 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424930AF
+0x20000030 : 40A0F3BF 410BB724 414AA96C BE985780
+0x20000040 : 414B234C 3DCCCCCD 3DCCCCCD 00005BE3
+0x20000050 : 00000024 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424452E4 409D0F1D 41085602
+0x20000090 : 4132E341 3F6B4700 41316ACF 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005B94 00000023 00000001
+0x200000B0 : 20000000 20000058 436A0000 409F016E
+0x200000C0 : BA084AAB 454C4198 C39B778C 3B940C36
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DBFC2
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000213 000001D5
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005BF9
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005BAA
+
+
+
+TIME=5.8938531 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4259F4BD
+0x20000030 : 40AE5D64 41175BBC 4142F751 C08FA5E8
+0x20000040 : 414A2603 3DCCCCCD 3DCCCCCD 00005C2F
+0x20000050 : 00000027 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 41307D47 BEF76E80 41314339 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005BDC 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A7F4A4
+0x200000C0 : BAE06046 454CE750 C39B72A6 3B15FAA5
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC058
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001FF 000001CF
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005C34
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005BE0
+
+
+
+TIME=6.0453677 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.24V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4259F4BD
+0x20000030 : 40AE5D64 41175BBC 41423F72 C08FA5E8
+0x20000040 : 41496E24 3DCCCCCD 3DCCCCCD 00005C56
+0x20000050 : 00000027 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424F8AD4 40A608AA 41102069
+0x20000090 : 412DF1A8 BFF15A80 4130F5FD 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005C01 00000025 00000001
+0x200000B0 : 20000000 20000058 436A0000 40AA3307
+0x200000C0 : BA91D3D4 454D3C69 C39B7178 3A9A2176
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC0EE
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001FD 000001C8
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005C6E
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005C17
+
+
+
+TIME=6.1952259 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 4143FD14 C045E0E0
+0x20000040 : 4148EF80 3DCCCCCD 3DCCCCCD 00005C7C
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424452E4 409D0F1D 41085602
+0x20000090 : 41329414 3F6B4700 41311BA2 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005C24 00000023 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A379FA
+0x200000C0 : BAE0AA53 454D8E26 C39B7143 BA0D11BA
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC165
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000202 000001D4
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005C99
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005C3F
+
+
+
+TIME=6.309001 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424930AF
+0x20000030 : 40A0F3BF 410BB724 41486970 BE985780
+0x20000040 : 4148E350 3DCCCCCD 3DCCCCCD 00005CA0
+0x20000050 : 00000024 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42391AF4 40941590 41008B9C
+0x20000090 : 4137A960 406E50C0 4131B428 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005C45 00000021 00000001
+0x200000B0 : 20000000 20000058 436A0000 409A84A8
+0x200000C0 : BAE13E4A 454DDB68 C39B7220 BB13E394
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC1D8
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000020E 000001E2
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005CBF
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005C63
+
+
+
+TIME=6.4265806 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42386CA0
+0x20000030 : 40938A1A 4100128C 4150967B 40793600
+0x20000040 : 414A5B88 3DCCCCCD 3DCCCCCD 00005CE1
+0x20000050 : 00000021 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 422DE305 408B1C04 40F1826A
+0x20000090 : 413E3CF2 40D0E7D8 4133CAF4 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005C83 0000001F 00000001
+0x200000B0 : 20000000 20000058 436A0000 408F530F
+0x200000C0 : BA938FBA 454E699C C39B7577 BB802905
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC253
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000223 000001F3
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005CE7
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005C89
+
+
+
+TIME=6.5486937 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424399FF
+0x20000030 : 409C7B32 4107D59C 414C4AF9 3F8CC020
+0x20000040 : 414A8892 3DCCCCCD 3DCCCCCD 00005D04
+0x20000050 : 00000023 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42337EFC 408F98CA 40F94CD1
+0x20000090 : 413CD085 40A40820 41349CEA 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005CA3 00000020 00000001
+0x200000B0 : 20000000 20000058 436A0000 409609FE
+0x200000C0 : BAE18835 454EB4A1 C39B7854 BBB88B12
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC2C7
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000218 000001EF
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005D0F
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005CAF
+
+
+
+TIME=6.6631905 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424399FF
+0x20000030 : 409C7B32 4107D59C 414C7803 3F8CC020
+0x20000040 : 414AB59C 3DCCCCCD 3DCCCCCD 00005D27
+0x20000050 : 00000023 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 423EB6ED 40989257 410470CF
+0x20000090 : 4138B2D3 40149130 4134FBFF 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005CC5 00000022 00000001
+0x200000B0 : 20000000 20000058 436A0000 409A86C4
+0x200000C0 : BA08DE7F 454F01E4 C39B7BF8 BBC9A6E2
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC33C
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000218 000001E4
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005D38
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005CD8
+
+
+
+TIME=6.7800044 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 423E034F
+0x20000030 : 409802A6 4103F414 414F1A8E 401FCB10
+0x20000040 : 414B1BE1 3DCCCCCD 3DCCCCCD 00005D49
+0x20000050 : 00000022 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 41342242 BEF76E80 4134E834 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005CE9 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 409CC745
+0x200000C0 : 3AA6EC2C 454F5047 C39B7F6E BB9FEBD7
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC3AE
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000021F 000001D8
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005D5D
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005CFD
+
+
+
+TIME=6.8951715 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 422D3F41
+0x20000030 : 408A9901 40F09EF7 4156E154 40D605F8
+0x20000040 : 414C2DD4 3DCCCCCD 3DCCCCCD 00005D68
+0x20000050 : 0000001F 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 422DE305 408B1C04 40F1826A
+0x20000090 : 41406598 40D0E7D8 4135F39A 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005D08 0000001F 00000001
+0x200000B0 : 20000000 20000058 436A0000 408ADA82
+0x200000C0 : 388F543D 454F95B4 C39B821F BB9DAE86
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC41F
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000234 000001F9
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005D81
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005D20
+
+
+
+TIME=7.0083788 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4232D5F1
+0x20000030 : 408F118D 40F86206 41557DC6 40A95078
+0x20000040 : 414D068D 3DCCCCCD 3DCCCCCD 00005D88
+0x20000050 : 00000020 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 422DE305 408B1C04 40F1826A
+0x20000090 : 414170FE 40D0E7D8 4136FF00 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005D27 0000001F 00000001
+0x200000B0 : 20000000 20000058 436A0000 408D16C8
+0x200000C0 : BA0A9A65 454FDC3F C39B84FC BBAF01D3
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC495
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000230 000001FB
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005DA6
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005D45
+
+
+
+TIME=7.1250639 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4232D5F1
+0x20000030 : 408F118D 40F86206 41572F38 40A95078
+0x20000040 : 414EB7FF 3DCCCCCD 3DCCCCCD 00005DC8
+0x20000050 : 00000020 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4228470E 40869F3E 40E9B804
+0x20000090 : 4145FF9D 40FDC790 41394F3C 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005D64 0000001E 00000001
+0x200000B0 : 20000000 20000058 436A0000 408AD866
+0x200000C0 : BA93D9A4 45506836 C39B8BB9 BBE54B89
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC508
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000234 00000207
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005DCB
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005D67
+
+
+
+TIME=7.2423372 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 422D3F41
+0x20000030 : 408A9901 40F09EF7 415A7D72 40D605F8
+0x20000040 : 414FC9F2 3DCCCCCD 3DCCCCCD 00005DE7
+0x20000050 : 0000001F 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4228470E 40869F3E 40E9B804
+0x20000090 : 41474473 40FDC790 413A9412 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005D82 0000001E 00000001
+0x200000B0 : 20000000 20000058 436A0000 40889C20
+0x200000C0 : BA0B2E5C 4550AC84 C39B8FB1 BBF6B154
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC57E
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000023D 0000020B
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005DF1
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005D8B
+
+
+
+TIME=7.3585151 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424930AF
+0x20000030 : 40A0F3BF 410BB724 414F43E2 BE985780
+0x20000040 : 414FBDC2 3DCCCCCD 3DCCCCCD 00005E0B
+0x20000050 : 00000024 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42337EFC 408F98CA 40F94CD1
+0x20000090 : 414399A3 40A40820 413B6608 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005DA2 00000020 00000001
+0x200000B0 : 20000000 20000058 436A0000 40984644
+0x200000C0 : BB17E55E 4550F8A6 C39B94FC BC215202
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC5F2
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000220 00000201
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005E1B
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005DB2
+
+
+
+TIME=7.4742747 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424399FF
+0x20000030 : 409C7B32 4107D59C 4151AD33 3F8CC020
+0x20000040 : 414FEACC 3DCCCCCD 3DCCCCCD 00005E2E
+0x20000050 : 00000023 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424452E4 409D0F1D 41085602
+0x20000090 : 413D041F 3F6B4700 413B8BAD 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005DC5 00000023 00000001
+0x200000B0 : 20000000 20000058 436A0000 409CC528
+0x200000C0 : 38A1D325 45514708 C39B9B22 BC200E5C
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC66A
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000226 000001F0
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005E45
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005DDA
+
+
+
+TIME=7.5935011 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424930AF
+0x20000030 : 40A0F3BF 410BB724 414F64BC BE985780
+0x20000040 : 414FDE9C 3DCCCCCD 3DCCCCCD 00005E52
+0x20000050 : 00000024 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 42337EFC 408F98CA 40F94CD1
+0x20000090 : 4144913E 40A40820 413C5DA3 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005DE5 00000020 00000001
+0x200000B0 : 20000000 20000058 436A0000 40984644
+0x200000C0 : BB17E55E 4551932A C39BA1CA BC4607B4
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC6DD
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000220 00000203
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005E6F
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005E01
+
+
+
+TIME=7.7098649 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4259F4BD
+0x20000030 : 40AE5D64 41175BBC 4147B2A1 C08FA5E8
+0x20000040 : 414EE153 3DCCCCCD 3DCCCCCD 00005E9E
+0x20000050 : 00000027 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 413BA98B BEF76E80 413C6F7D 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005E2C 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A7F4A4
+0x200000C0 : BAE06046 455237BF C39BB364 BC7460B6
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC75D
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000020C 000001EC
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005EA1
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005E2F
+
+
+
+TIME=7.8402161 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 41497043 C045E0E0
+0x20000040 : 414E62AF 3DCCCCCD 3DCCCCCD 00005EC4
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424F8AD4 40A608AA 41102069
+0x20000090 : 41391DEC BFF15A80 413C2241 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005E51 00000025 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A7F6C1
+0x200000C0 : BA0722BC 45528BB8 C39BBD96 BC7CD2E2
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC7DE
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000210 000001E5
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005ED3
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005E5F
+
+
+
+TIME=7.9658046 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4259F4BD
+0x20000030 : 40AE5D64 41175BBC 41467C1E C08FA5E8
+0x20000040 : 414DAAD0 3DCCCCCD 3DCCCCCD 00005EEB
+0x20000050 : 00000027 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424F8AD4 40A608AA 41102069
+0x20000090 : 4138D0B0 BFF15A80 413BD505 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005E76 00000025 00000001
+0x200000B0 : 20000000 20000058 436A0000 40AA3307
+0x200000C0 : BA91D3D4 4552E0CF C39BC878 BC8786AE
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC852
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000209 000001E5
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005F01
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005E8A
+
+
+
+TIME=8.0825021 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4259F4BD
+0x20000030 : 40AE5D64 41175BBC 4145C43F C08FA5E8
+0x20000040 : 414CF2F1 3DCCCCCD 3DCCCCCD 00005F12
+0x20000050 : 00000027 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424F8AD4 40A608AA 41102069
+0x20000090 : 41388374 BFF15A80 413B87C9 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005E9B 00000025 00000001
+0x200000B0 : 20000000 20000058 436A0000 40AA3307
+0x200000C0 : BA91D3D4 455335E5 C39BD41C BC90A3EB
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC8C5
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000207 000001E4
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005F2C
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005EB4
+
+
+
+TIME=8.1982676 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 414781E1 C045E0E0
+0x20000040 : 414C744D 3DCCCCCD 3DCCCCCD 00005F38
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 413AAE0C BEF76E80 413B73FE 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005EBF 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A5B85E
+0x200000C0 : BA921DD0 455388BE C39BE02F BC99C5C8
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC937
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000020B 000001EA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005F57
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005EDD
+
+
+
+TIME=8.3121731 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 4147033D C045E0E0
+0x20000040 : 414BF5A9 3DCCCCCD 3DCCCCCD 00005F5E
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 413A9A41 BEF76E80 413B6033 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005EE3 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A5B85E
+0x200000C0 : BA921DD0 4553DB96 C39BECFF BCA2E7A5
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DC9AA
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000020A 000001E9
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005F81
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005F06
+
+
+
+TIME=8.426842 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 41467869 C045E0E0
+0x20000040 : 414B6AD5 3DCCCCCD 3DCCCCCD 00005FA8
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 423EB6ED 40989257 410470CF
+0x20000090 : 413F6251 40149130 413BAB7D 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005F29 00000022 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A13B98
+0x200000C0 : BB179B62 45547CCB C39C0751 BCB5349E
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCA23
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000208 000001F6
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005FAF
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005F30
+
+
+
+TIME=8.5477462 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424EC75D
+0x20000030 : 40A56C4B 410F98AC 41486F46 BFD8EBA0
+0x20000040 : 414B256B 3DCCCCCD 3DCCCCCD 00005FCD
+0x20000050 : 00000025 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 413AD1C0 BEF76E80 413B97B2 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005F4D 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A37C18
+0x200000C0 : BA07B690 4554CE84 C39C15F3 BCB97252
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCA96
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000020E 000001EA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00005FD9
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005F59
+
+
+
+TIME=8.6636884 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 4145B45B C045E0E0
+0x20000040 : 414AA6C7 3DCCCCCD 3DCCCCCD 00005FF3
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 413ABDF5 BEF76E80 413B83E7 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005F71 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A5B85E
+0x200000C0 : BA921DD0 4555215A C39C2553 BCC2942F
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCB0A
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000206 000001EA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00006006
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005F84
+
+
+
+TIME=8.7802755 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 414535B7 C045E0E0
+0x20000040 : 414A2823 3DCCCCCD 3DCCCCCD 00006019
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 425526CD 40AA8571 4114059C
+0x20000090 : 4135BA83 C0526CD0 413AFD3B 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005F97 00000026 00000001
+0x200000B0 : 20000000 20000058 436A0000 40AA3524
+0x200000C0 : 38AFB253 4555766E C39C3577 BCC1E47D
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCB80
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000205 000001DD
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00006032
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005FAF
+
+
+
+TIME=8.8958536 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 4144B713 C045E0E0
+0x20000040 : 4149A97F 3DCCCCCD 3DCCCCCD 0000603F
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424452E4 409D0F1D 41085602
+0x20000090 : 413C9B52 3F6B4700 413B22E0 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00005FBA 00000023 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A379FA
+0x200000C0 : BAE0AA53 4555C825 C39C4580 BCCFEF22
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCBF4
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000204 000001EF
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 0000605C
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00005FD9
+
+
+
+TIME=9.0144527 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424930AF
+0x20000030 : 40A0F3BF 410BB724 4149173F BE985780
+0x20000040 : 4149911F 3DCCCCCD 3DCCCCCD 00006087
+0x20000050 : 00000024 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 4139FBE7 BEF76E80 413AC1D9 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00006003 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A13FD2
+0x200000C0 : 38A672DF 45566A78 C39C65C8 BCC9B975
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCC88
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 0000020F 000001E8
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00006094
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000600E
+
+
+
+TIME=9.1658622 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 4144200F C045E0E0
+0x20000040 : 4149127B 3DCCCCCD 3DCCCCCD 000060AD
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424452E4 409D0F1D 41085602
+0x20000090 : 413C5FF0 3F6B4700 413AE77E 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00006026 00000023 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A379FA
+0x200000C0 : BAE0AA53 4556BC2E C39C7671 BCD7C41A
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCD2B
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000202 000001EE
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000060CF
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00006049
+
+
+
+TIME=9.3259769 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4259F4BD
+0x20000030 : 40AE5D64 41175BBC 41411FBA C08FA5E8
+0x20000040 : 41484E6C 3DCCCCCD 3DCCCCCD 000060F8
+0x20000050 : 00000027 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 4139F9F6 BEF76E80 413ABFE8 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000606E 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A7F4A4
+0x200000C0 : BAE06046 455760B9 C39C999E BCE523AB
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCDCB
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001FA 000001E8
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 0000610D
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00006083
+
+
+
+TIME=9.4885551 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 4265221B
+0x20000030 : 40B74E7C 411F1ECC 413AFE37 C0E910D8
+0x20000040 : 4146A575 3DCCCCCD 3DCCCCCD 00006147
+0x20000050 : 00000029 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424F8AD4 40A608AA 41102069
+0x20000090 : 4136E7AB BFF15A80 4139EC00 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000060B9 00000025 00000001
+0x200000B0 : 20000000 20000058 436A0000 40AEAB93
+0x200000C0 : BB172C60 45580D17 C39CC0EB BCF75985
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCE68
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001EA 000001E0
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 0000614B
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000060BD
+
+
+
+TIME=9.6439629 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 425F8B6C
+0x20000030 : 40B2D5F0 411B3D44 413C4964 C0BC5B60
+0x20000040 : 4145B45C 3DCCCCCD 3DCCCCCD 0000616F
+0x20000050 : 00000028 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 425AC2C5 40AF0237 4117EACF
+0x20000090 : 4131AAC8 C0961628 41392BE4 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000060E0 00000027 00000001
+0x200000B0 : 20000000 20000058 436A0000 40B0EC14
+0x200000C0 : BA05FAAB 45586583 C39CD677 BCFB895A
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCEF9
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001EE 000001D2
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00006185
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000060F5
+
+
+
+TIME=9.7907717 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 413F8B6D C045E0E0
+0x20000040 : 41447DD9 3DCCCCCD 3DCCCCCD 000061BC
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 413804EB BEF76E80 4138CADD 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00006129 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A5B85E
+0x200000C0 : BA921DD0 45590D63 C39D0133 BD06E43A
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DCF9E
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001F6 000001E3
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000061C4
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00006130
+
+
+
+TIME=9.9564676 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424EC75D
+0x20000030 : 40A56C4B 410F98AC 4141824A BFD8EBA0
+0x20000040 : 4144386F 3DCCCCCD 3DCCCCCD 000061E1
+0x20000050 : 00000025 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 423EB6ED 40989257 410470CF
+0x20000090 : 413CE0C6 40149130 413929F2 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000614B 00000022 00000001
+0x200000B0 : 20000000 20000058 436A0000 409EFF51
+0x200000C0 : BAE0F43D 45595CD7 C39D16B0 BD0DEBDC
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DD032
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001FB 000001EF
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000061FB
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00006163
+
+
+
+TIME=10.103935 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424EC75D
+0x20000030 : 40A56C4B 410F98AC 4140F776 BFD8EBA0
+0x20000040 : 4143AD9B 3DCCCCCD 3DCCCCCD 0000622B
+0x20000050 : 00000025 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 4249EEDD 40A18BE4 410C3B36
+0x20000090 : 413875DA BEF76E80 41393BCC 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00006192 00000024 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A37C18
+0x200000C0 : BA07B690 4559FF19 C39D44F2 BD149DF4
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DD0C4
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001FA 000001E4
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 00006230
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 00006197
+
+
+
+TIME=10.245849 PHASE=forward
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 42480000 42480000 424EC75D
+0x20000030 : 40A56C4B 410F98AC 4140B20C BFD8EBA0
+0x20000040 : 41436831 3DCCCCCD 3DCCCCCD 00006250
+0x20000050 : 00000025 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 42480000
+0x20000080 : 42480000 424452E4 409D0F1D 41085602
+0x20000090 : 413AD9E3 3F6B4700 41396171 3DCCCCCD
+0x200000A0 : 3DCCCCCD 000061B5 00000023 00000001
+0x200000B0 : 20000000 20000058 436A0000 40A13DB4
+0x200000C0 : BA9267CB 455A4FAA C39D5CB4 BD193132
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 42480000 00000000 00000001 000DD138
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 000001F9 000001EA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 0000625B
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 000061C1
+
+
+
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+Write 32-bit data
+w @0x200001d4:  0x00000000  0x00000000
+
+
+Downloading...
+�������������������������������������������������� 0%
+�������������������������������������������������� 100%
+32-bit data download complete
+
+TIME=10.4703094 PHASE=stopped
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 00000000 00000000 42545E0E
+0x20000030 : 40A9E4D8 41137A34 00000000 C2545E0E
+0x20000040 : 00000000 3DCCCCCD 3DCCCCCD 0000629C
+0x20000050 : 00000026 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 00000000
+0x20000080 : 00000000 425526CD 40AA8571 4114059C
+0x20000090 : 00000000 C25526CD 00000000 3DCCCCCD
+0x200000A0 : 3DCCCCCD 00006200 00000026 00000001
+0x200000B0 : 20000000 20000058 436A0000 40AA3524
+0x200000C0 : 38AFB253 455AF8A1 C39D8FC7 BD1AF5E4
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 00000000 00000000 00000001 000DD21F
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000000 00000000
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000062A9
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000620D
+
+
+
+TIME=10.7471977 PHASE=stopped
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 00000000 00000000 00000000
+0x20000030 : 00000000 00000000 00000000 80000000
+0x20000040 : 00000000 3DCCCCCD 3DCCCCCD 000062AA
+0x20000050 : 00000000 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 00000000
+0x20000080 : 00000000 00000000 00000000 00000000
+0x20000090 : 00000000 80000000 00000000 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000620F 00000000 00000001
+0x200000B0 : 20000000 20000058 436A0000 00000000
+0x200000C0 : 00000000 455B1915 C39D9986 BD186123
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 00000000 00000000 00000001 000DD346
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000000 00000000
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000062AA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000620F
+
+
+
+TIME=11.0483558 PHASE=stopped
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.26V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 00000000 00000000 00000000
+0x20000030 : 00000000 00000000 00000000 80000000
+0x20000040 : 00000000 3DCCCCCD 3DCCCCCD 000062AA
+0x20000050 : 00000000 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 00000000
+0x20000080 : 00000000 00000000 00000000 00000000
+0x20000090 : 00000000 80000000 00000000 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000620F 00000000 00000001
+0x200000B0 : 20000000 20000058 436A0000 00000000
+0x200000C0 : 00000000 455B1915 C39D9986 BD186123
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 00000000 00000000 00000001 000DD476
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000000 00000000
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000062AA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000620F
+
+
+
+TIME=11.3501854 PHASE=stopped
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 00000000 00000000 00000000
+0x20000030 : 00000000 00000000 00000000 80000000
+0x20000040 : 00000000 3DCCCCCD 3DCCCCCD 000062AA
+0x20000050 : 00000000 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 00000000
+0x20000080 : 00000000 00000000 00000000 00000000
+0x20000090 : 00000000 80000000 00000000 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000620F 00000000 00000001
+0x200000B0 : 20000000 20000058 436A0000 00000000
+0x200000C0 : 00000000 455B1915 C39D9986 BD186123
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 00000000 00000000 00000001 000DD5A1
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000000 00000000
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000062AA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000620F
+
+
+
+TIME=11.6667962 PHASE=stopped
+      -------------------------------------------------------------------
+                       STM32CubeProgrammer v2.23.0                  
+      -------------------------------------------------------------------
+
+ST-LINK SN  : 066DFF505071655067244046
+ST-LINK FW  : V2J48M35
+Board       : NUCLEO-F446RE
+Voltage     : 3.25V
+SWD freq    : 4000 KHz
+Connect mode: Hot Plug
+Reset mode  : Software reset
+Device ID   : 0x421
+Revision ID : Rev A
+Device name : STM32F446xx
+NVM size    : 512 KBytes
+Device type : MCU
+Device CPU  : Cortex-M4
+BL Version  : 0x90
+
+
+Reading 32-bit memory content
+  Size          : 224 Bytes
+  Address:      : 0x20000000
+0x20000000 : 20000144 200000FC 00000000 40020800
+0x20000010 : 00000001 00000020 00000001 451A999A
+0x20000020 : 43ACCCCD 00000000 00000000 00000000
+0x20000030 : 00000000 00000000 00000000 80000000
+0x20000040 : 00000000 3DCCCCCD 3DCCCCCD 000062AA
+0x20000050 : 00000000 00000001 2000018C 200000FC
+0x20000060 : 00000004 40020800 00000002 00000010
+0x20000070 : 00000001 451A0800 43ACCCCD 00000000
+0x20000080 : 00000000 00000000 00000000 00000000
+0x20000090 : 00000000 80000000 00000000 3DCCCCCD
+0x200000A0 : 3DCCCCCD 0000620F 00000000 00000001
+0x200000B0 : 20000000 20000058 436A0000 00000000
+0x200000C0 : 00000000 455B1915 C39D9986 BD186123
+0x200000D0 : 0501BD00 40020800 00000000 00000001
+
+Reading 32-bit memory content
+  Size          : 16 Bytes
+  Address:      : 0x200001D4
+0x200001D4 : 00000000 00000000 00000001 000DD6E4
+
+Reading 32-bit memory content
+  Size          : 8 Bytes
+  Address:      : 0x40010034
+0x40010034 : 00000000 00000000
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000024
+0x40000024 : 000062AA
+
+
+
+Reading 32-bit memory content
+  Size          : 4 Bytes
+  Address:      : 0x40000424
+0x40000424 : 0000620F
+
+
+
