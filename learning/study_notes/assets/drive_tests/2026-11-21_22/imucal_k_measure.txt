@@ -1,0 +1,4 @@
+IMU_YAW_SCALE 1.0053 검증 (매 회차 테이프에 맞춘 뒤 시작)
+1 ccw360 imu=361.47 measured_extra=1.5
+2 ccw1080 imu=1081.33 measured_extra=1~2 (user: 전보다 좋아짐)
+3 ccw1080 imu=1080.34 measured_extra=1~2

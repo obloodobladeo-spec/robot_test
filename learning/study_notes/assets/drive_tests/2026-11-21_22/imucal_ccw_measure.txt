@@ -1,0 +1,6 @@
+기준: 매 회차 시작 전 사용자가 테이프에 방향을 맞춤. 측정값 = 테이프 대비 360° 초과 회전량
+1 extra_deg=2.0
+2 extra_deg=4.0
+3 extra_deg=2.0
+4 extra_deg=3.5
+5 extra_deg=2.0
