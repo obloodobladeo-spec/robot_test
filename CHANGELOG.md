@@ -11,6 +11,9 @@
 - ROS: `/imu/data` 발행, covariance, 20 ms 수신 타이머, `publish_tf` 파라미터, robot_localization EKF(`use_ekf:=true`, `config/ekf.yaml`).
 - 시험 도구 `learning/tools/drive_test`와 원본 로그 `learning/study_notes/assets/drive_tests/2026-11-21_22`.
 
+- Jetson 준비: `learning/tools/jetson/99-robot-usb.rules`(`/dev/stm32`, `/dev/lidar`), `setup_jetson.sh`.
+- `slam.launch.py` + `config/slam_toolbox.yaml` (online async, base_frame base_link). bringup에 `stm32_port`/`lidar_port` 인자.
+
 ### Changed (test/imu-drive-tuning)
 - 바퀴 PI Kp/Ki 0.15/0.15 → 0.15/0.25, 오른쪽 바퀴 둘레 345.6 → 330.7 mm, 실효 윤거 234 → 243.1 mm, IMU yaw × 1.0053.
 - 방향 전환 시 이미 정지해 있던 바퀴는 대기 없이 출발.

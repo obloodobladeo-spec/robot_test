@@ -21,6 +21,12 @@ def generate_launch_description():
 	# (robot_localization 패키지 설치 필요: ros-humble-robot-localization)
 	use_ekf = LaunchConfiguration("use_ekf")
 
+	# 장치 경로: udev 규칙(tools/jetson/99-robot-usb.rules)이 설치돼 있으면 고정 이름을 기본으로 쓴다.
+	stm32_default = "/dev/stm32" if Path("/dev/stm32").exists() else "/dev/ttyACM0"
+	lidar_default = "/dev/lidar" if Path("/dev/lidar").exists() else "/dev/ttyUSB0"
+	stm32_port = LaunchConfiguration("stm32_port")
+	lidar_port = LaunchConfiguration("lidar_port")
+
     #  c1 경로 만들기
 	lidar_launch_path = (
 		Path(get_package_share_directory("sllidar_ros2")) / "launch" / "sllidar_c1_launch.py"
@@ -28,6 +34,8 @@ def generate_launch_description():
 
 	return LaunchDescription([
 		DeclareLaunchArgument("use_ekf", default_value="false"),
+		DeclareLaunchArgument("stm32_port", default_value=stm32_default),
+		DeclareLaunchArgument("lidar_port", default_value=lidar_default),
 		Node(
 			package="robot_state_publisher",
 			executable="robot_state_publisher",
@@ -43,6 +51,7 @@ def generate_launch_description():
 			output="screen",
 			parameters=[{
 				"publish_tf": PythonExpression(["'", use_ekf, "'.lower() != 'true'"]),
+				"serial_port": stm32_port,
 			}],
 		),
 		Node(
@@ -55,5 +64,6 @@ def generate_launch_description():
 		),
 		IncludeLaunchDescription(
             PythonLaunchDescriptionSource(str(lidar_launch_path)),
+            launch_arguments={"serial_port": lidar_port}.items(),
         ),
 	])

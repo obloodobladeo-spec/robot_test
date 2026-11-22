@@ -1,0 +1,6 @@
+# 로봇 USB 장치 고정 이름 (Jetson). 설치: sudo cp 99-robot-usb.rules /etc/udev/rules.d/ && sudo udevadm control --reload && sudo udevadm trigger
+# 확인: ls -l /dev/stm32 /dev/lidar
+# NUCLEO-F446RE ST-LINK/V2.1 가상 COM (lsusb: 0483:374b, 노트북에서 확인)
+SUBSYSTEM=="tty", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="374b", SYMLINK+="stm32", MODE="0660", GROUP="dialout"
+# RPLIDAR C1 (CP210x USB-UART: 10c4:ea60 로 알려짐 — Jetson에서 lsusb로 확인 후 다르면 수정)
+SUBSYSTEM=="tty", ATTRS{idVendor}=="10c4", ATTRS{idProduct}=="ea60", SYMLINK+="lidar", MODE="0660", GROUP="dialout"
