@@ -1,0 +1,3 @@
+https://github.com/ceva-dsp/sh2
+commit: b514b1e2586ddc195e553dac89fc94c637b25298
+Apache-2.0; original per-file notices retained.
