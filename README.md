@@ -5,6 +5,8 @@
 - `main`: 검증을 마친 기준 상태. 버전은 태그(`v0.1.0` …)와 [CHANGELOG.md](CHANGELOG.md)로 관리합니다. 규칙은 [docs/VERSIONING.md](docs/VERSIONING.md).
 - `test/imu-drive-tuning`: **현재 실기 시험 중인 작업** (BNO085 IMU 통합, 출발·직진 보정, 윤거·IMU 배율 실측 보정, EKF). 검증이 끝나면 main에 병합합니다.
 
+> **이 브랜치(`test/imu-drive-tuning`)의 내용:** [IMU 통합·주행 보정 기록](learning/DRIVE_TUNING_2026-11-22.md) · 펌웨어 [learning/stm32/board_practice](learning/stm32/board_practice/) · [주행 시험 도구](learning/tools/drive_test/)
+
 ## 현재 테스트 프로젝트 별도 보관
 
 [CubeIDE 프로젝트 전체 — encorder_test](stm32_projects/encorder_test/)를 별도로 추가했습니다. 현재 Kp·Ki=0.1, 전진 50mm/s 전용 기본 듀티 12%, 2초 보상 상승 및 상승 중 양의 적분 누적 제한이 적용된 시험 버전입니다. encoder_basic과 구분해서 사용하세요.

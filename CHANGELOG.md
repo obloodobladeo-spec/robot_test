@@ -4,7 +4,17 @@
 
 ## [Unreleased]
 
-실기 시험 중인 작업은 `test/*` 브랜치에 있다. 현재: `test/imu-drive-tuning` (BNO085 IMU 통합, 주행 보정, EKF).
+실기 시험 중인 작업은 `test/*` 브랜치에 있다. 현재: `test/imu-drive-tuning`. 요약: [learning/DRIVE_TUNING_2026-11-22.md](learning/DRIVE_TUNING_2026-11-22.md)
+
+### Added (test/imu-drive-tuning)
+- 펌웨어 `learning/stm32/board_practice`: BNO085 IMU(CEVA SH-2) 통합, telemetry 100 ms·IMU·순번 필드, heading hold(엔코더 P + IMU P/I), 속도 비례 피드포워드, IMU yaw 배율 보정.
+- ROS: `/imu/data` 발행, covariance, 20 ms 수신 타이머, `publish_tf` 파라미터, robot_localization EKF(`use_ekf:=true`, `config/ekf.yaml`).
+- 시험 도구 `learning/tools/drive_test`와 원본 로그 `learning/study_notes/assets/drive_tests/2026-11-21_22`.
+
+### Changed (test/imu-drive-tuning)
+- 바퀴 PI Kp/Ki 0.15/0.15 → 0.15/0.25, 오른쪽 바퀴 둘레 345.6 → 330.7 mm, 실효 윤거 234 → 243.1 mm, IMU yaw × 1.0053.
+- 방향 전환 시 이미 정지해 있던 바퀴는 대기 없이 출발.
+- URDF: 차체 220×160×72 mm, 앞바퀴 제거, LiDAR 받침 80×132×44 mm, `imu_link` 추가.
 
 ## [0.1.1] - 2026-11-22
 
