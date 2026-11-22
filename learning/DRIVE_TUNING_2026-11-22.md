@@ -45,6 +45,19 @@
 5. **IMU 배율**: 회전을 약 0.5% 작게 잼. BNO085는 SH-2 매뉴얼 v1.2에 자이로 게인 자체 보정 명령이 없어 MCU에서 보정. 보정 후 1080° 회전에서 실측과 1° 안팎.
 6. **볼 캐스터 1개 50 cm 왕복** (최종 설정): 전진 −0.14° ± 0.16, 후진 −0.19° ± 0.15.
 
+## Jetson 이전 (2026-11-22)
+
+| 항목 | 상태 |
+|---|---|
+| Jetson | Orin Nano 8GB, Ubuntu 22.04.5, L4T R36.5, ROS 2 Humble, 사용자 `heosi`, 노트북에서 `ssh jetson`(키 로그인) |
+| 설치 | `learning/tools/jetson/setup_jetson.sh` (robot_localization, slam_toolbox, nav2, udev) |
+| 장치 이름 | `/dev/stm32`(ST-LINK 0483:374b), `/dev/lidar`(CP2102N 10c4:ea60) |
+| 부팅 | 서버 모드(`multi-user.target`). 메모리 bringup 중 1,753 → 622 MB, gnome-shell CPU 37% 제거 |
+| 네트워크 | iPhone 핫스팟, `ROS_DOMAIN_ID=20`(Jetson·노트북 모두). **Jetson Wi-Fi 절전 끔**(`/etc/NetworkManager/conf.d/default-wifi-powersave-on.conf`: `wifi.powersave = 2`) → ping 평균 59 → 4 ms, 최대 293 → 6 ms |
+| bringup (`use_ekf:=true`) | `/scan`, `/odom`, `/imu/data`, `/odometry/filtered` 모두 10 Hz, TF 정상, 노트북에서 수신 확인 |
+| LiDAR 방향 | `laser` yaw 180° 실물과 일치 확인 (`tools/drive_test/scan_direction.py`, RViz `rviz/bringup.rviz`) |
+| 배터리 주행 | 50 cm 왕복 3회: 전진 −0.07° ± 0.26, 후진 −0.09° ± 0.45, 튀는 값 0. 엔코더−IMU가 −0.9°/+0.8°로 바뀜(Jetson·배터리 탑재로 하중 변화, 오른쪽 둘레 약 333 mm로 재보정 후보) |
+
 ## 남은 항목 (main 병합 전 확인 필요)
 
 - 바퀴 속도 흔들림 σ 5~6 mm/s (비틀거림): 제어 설정과 무관, 기계 요인으로 추정. 미해결.
