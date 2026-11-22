@@ -76,16 +76,6 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        front_left_wheel_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-        front_right_wheel_link:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
         laser:
           Alpha: 1
           Show Axes: false

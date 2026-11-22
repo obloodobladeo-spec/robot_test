@@ -1,89 +1,74 @@
 <?xml version="1.0"?>
 <robot name="study_robot">
 
-  <!-- 로봇 전체의 기준 좌표계 -->
+  <!--
+    치수 기준 (2026-11-21 재작성)
+    - 차체: 220 x 160 x 72 mm (새 몸체)
+    - 바퀴: 반지름 55 mm, 폭 45 mm (기존 그대로), 구동 윤거 234 mm (STM32 WHEEL_TRACK_MM)
+    - base_link: 두 구동 바퀴 축의 중심, 높이는 바퀴 축 (바닥 + 55 mm)
+    - 배치:
+        구동축 = 차체 앞 끝에서 183 mm 뒤 (실측 2026-11-21) -> 차체 중심 x = 183 - 220/2 = 73 mm
+        LiDAR 받침 = 80(앞뒤) x 132(좌우) x 44(높이) mm 직육면체, 차체 윗면 위, 좌우 가운데,
+                     앞 변이 차체 앞 끝에서 15 mm 뒤 -> 차체 중심 기준 x = 110 - 15 - 40 = 55 mm
+        LiDAR  = 회전 중심이 받침 윗면 중앙 (사용자 확인 2026-11-21) -> 차체 중심 기준 x = 55 mm
+                 방향은 이전과 같이 뒤를 향함(yaw 180°, 2026-11-06 /scan 실측 기준)
+                 스캔면 높이 = 받침 윗면 + 29.8 mm (C1 바닥에서 스캔면까지)
+        차체 높이 중심 = 바퀴 축 높이 (기존 URDF와 같은 표현)
+      실제 장착 위치를 재면 아래 값을 고친다. LiDAR 위치는 SLAM 정확도에 영향을 준다.
+  -->
+
+  <material name="body_blue">
+    <color rgba="0.2 0.5 0.9 1.0"/>
+  </material>
+
+  <material name="wheel_black">
+    <color rgba="0.1 0.1 0.1 1.0"/>
+  </material>
+
+  <material name="laser_red">
+    <color rgba="1 0 0 1"/>
+  </material>
+
+  <material name="imu_green">
+    <color rgba="0.1 0.8 0.2 1.0"/>
+  </material>
+
+  <!-- 로봇 전체의 기준 좌표계: 두 구동 바퀴 축 중심 -->
   <link name="base_link"/>
 
   <!-- 차체 외형 -->
   <link name="chassis_link">
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0"/>
-
       <geometry>
-        <box size="0.25 0.18 0.0564"/>
-	    </geometry>
-
-	    <material name="body_blue">
-	      <color rgba="0.2 0.5 0.9 1.0"/>
-	    </material>
-	  </visual>
-
-    <visual>
-      <origin xyz="0.042 0 0.0432" rpy="0 0 0"/>
-
-      <geometry>
-        <cylinder radius="0.058" length="0.03"/>
+        <box size="0.22 0.16 0.072"/>
       </geometry>
+      <material name="body_blue"/>
+    </visual>
 
+    <!-- LiDAR 받침: 80 x 132 x 44 mm, 차체 윗면(z=0.036) 위, 앞 변이 차체 앞 끝에서 15 mm 뒤 -->
+    <visual>
+      <origin xyz="0.055 0 0.058" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.08 0.132 0.044"/>
+      </geometry>
       <material name="body_blue"/>
     </visual>
   </link>
 
-  <!-- 기준 좌표에 차체를 고정 연결 -->
   <joint name="chassis_joint" type="fixed">
-  	<parent link="base_link"/>
-  	<child link="chassis_link"/>
-  	<origin xyz="0.108 0 0" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="chassis_link"/>
+    <origin xyz="0.073 0 0" rpy="0 0 0"/>
   </joint>
 
-  <material name="wheel_black">
-    <color rgba= "0.1 0.1 0.1 1.0"/>
-  </material>
-
-  <link name="front_left_wheel_link">
-    <visual>
-      <origin xyz="0 0 0" rpy="1.570796 0 0"/>
-
-      <geometry>
-        <cylinder radius="0.055" length="0.045"/>
-      </geometry>
-
-      <material name="wheel_black"/>
-    </visual>
-  </link>
-
-  <joint name="front_left_wheel_joint" type="fixed">
-    <parent link="chassis_link"/>
-    <child link="front_left_wheel_link"/>
-    <origin xyz="0.092 0.115 0" rpy="0 0 0"/>
-  </joint>
-
-  <link name="front_right_wheel_link">
-    <visual>
-      <origin xyz="0 0 0" rpy="1.570796 0 0"/>
-
-      <geometry>
-        <cylinder radius="0.055" length="0.045"/>
-      </geometry>
-
-      <material name="wheel_black"/>
-    </visual>
-  </link>
-
-  <joint name="front_right_wheel_joint" type="fixed">
-    <parent link="chassis_link"/>
-    <child link="front_right_wheel_link"/>
-    <origin xyz="0.092 -0.115 0" rpy="0 0 0"/>
-  </joint>
-
+  <!-- 구동 바퀴 (윤거 234 mm) -->
   <link name="left_wheel_link">
     <visual>
       <origin xyz="0 0 0" rpy="1.570796 0 0"/>
-
       <geometry>
         <cylinder radius="0.055" length="0.045"/>
       </geometry>
-
       <material name="wheel_black"/>
     </visual>
   </link>
@@ -91,7 +76,6 @@
   <joint name="left_whell_joint" type="continuous">
     <parent link="base_link"/>
     <child link="left_wheel_link"/>
-
     <origin xyz="0 0.117 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
   </joint>
@@ -99,11 +83,9 @@
   <link name="right_wheel_link">
     <visual>
       <origin xyz="0 0 0" rpy="1.570796 0 0"/>
-
       <geometry>
         <cylinder radius="0.055" length="0.045"/>
       </geometry>
-
       <material name="wheel_black"/>
     </visual>
   </link>
@@ -111,32 +93,48 @@
   <joint name="right_whell_joint" type="continuous">
     <parent link="base_link"/>
     <child link="right_wheel_link"/>
-
     <origin xyz="0 -0.117 0" rpy="0 0 0"/>
     <axis xyz="0 1 0"/>
   </joint>
 
+  <!-- RPLIDAR C1: 뒤를 향해 장착(yaw 180°). 받침 윗면(z=0.080) 중앙, 스캔면 z = 0.080 + 0.0298 -->
   <link name="laser">
     <visual>
       <origin xyz="0 0 -0.00915" rpy="0 0 0"/>
-
       <geometry>
         <cylinder radius="0.0278" length="0.0413"/>
       </geometry>
-
-      <material name="laser_red">
-        <color rgba="1 0 0 1"/>
-      </material>
+      <material name="laser_red"/>
     </visual>
   </link>
 
   <joint name="laser_joint" type="fixed">
     <parent link="chassis_link"/>
     <child link="laser"/>
-
-    <origin xyz="0.042 0 0.088" rpy="0 0 3.141592653589793"/>
+    <origin xyz="0.055 0 0.1098" rpy="0 0 3.141592653589793"/>
   </joint>
 
+  <!--
+    BNO085 IMU: 2026-11-21 기울이기 시험으로 축이 로봇과 일치함을 확인(+X 앞, +Y 왼쪽, +Z 위).
+    위치(실측 2026-11-21): 칩 4 mm(좌우) x 5 mm(앞뒤). 위에서 볼 때 칩의 앞-왼쪽 꼭짓점이
+    차체 앞-왼쪽 꼭짓점(base 기준 x 0.183, y 0.080)에서 107 mm(13 + 94) 뒤, 5 mm 오른쪽.
+      칩 중심 x = 0.183 - 0.107 - 0.0025 = 0.0735, y = 0.080 - 0.005 - 0.002 = 0.073
+    높이는 미측정: 차체 윗면(z = 0.036)에 붙은 것으로 가정. 방향·각속도에는 위치 영향 없음.
+  -->
+  <link name="imu_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.005 0.004 0.002"/>
+      </geometry>
+      <material name="imu_green"/>
+    </visual>
+  </link>
 
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <origin xyz="0.0735 0.073 0.036" rpy="0 0 0"/>
+  </joint>
 
 </robot>
