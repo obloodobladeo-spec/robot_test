@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ROS 2 colcon 생성물 (각 workspace 안)
+**/ros2_ws/build/
+**/ros2_ws/install/
+**/ros2_ws/log/
+**/robot_ws/build/
+**/robot_ws/install/
+**/robot_ws/log/
+
+# STM32CubeIDE 생성물·개인 설정
+**/Debug/
+**/Release/
+.settings/
+*.launch.bak
+
+# 편집기
+.vscode/
+*.swp
+
+# 참고: 최상위 build/firmware/ 의 ELF·BIN은 '바로 업로드용'으로 의도적으로 추적 중이다.

@@ -2,7 +2,7 @@
 
 이번 학습 범위는 NUCLEO-F446RE와 STM32CubeIDE/CubeMX의 `timer_test`, `PWM_test` 프로젝트입니다. 여러 날에 걸쳐 익힌 개념과 디버깅 결과를 함께 정리했습니다. GPIO는 기존 LED BSP 함수 사용과 PWM 핀 충돌 확인 범위에서 다뤘습니다.
 
-[전체 학습 목록](../../../../README.md)
+[전체 학습 목록](../../../../../README.md)
 
 ## 확인 수준과 현재 소스
 
