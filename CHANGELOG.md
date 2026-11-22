@@ -17,6 +17,7 @@
 - Jetson 이전 완료 (서버 모드, 도메인 20, Wi-Fi 절전 끔), RViz `rviz/bringup.rviz`, 도구 `scan_direction.py`·`topic_jitter.py`, Jetson 배터리 주행 로그.
 
 ### Changed (test/imu-drive-tuning)
+- 2026-11-23: 바퀴 둘레 L 345.6 → 343.9, R 330.7 → 332.3 mm (LiDAR 스캔 매칭 근거), heading hold 게인을 RAM 설정 `robot.heading`으로.
 - 바퀴 PI Kp/Ki 0.15/0.15 → 0.15/0.25, 오른쪽 바퀴 둘레 345.6 → 330.7 mm, 실효 윤거 234 → 243.1 mm, IMU yaw × 1.0053.
 - 방향 전환 시 이미 정지해 있던 바퀴는 대기 없이 출발.
 - URDF: 차체 220×160×72 mm, 앞바퀴 제거, LiDAR 받침 80×132×44 mm, `imu_link` 추가.

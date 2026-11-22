@@ -124,20 +124,21 @@ float Robot_HeadingHold(
 		: error;
 
 	/* 엔코더 P + (IMU가 엔코더보다 더 본 실제 틀어짐) P */
-	const float p_output = HEADING_KP * error
-		+ ((use_imu != 0U) ? HEADING_KP_IMU * wrap_pi(slow_error - error) : 0.0f);
+	const HeadingConfig *cfg = &robot->heading;
+	const float p_output = cfg->kp_encoder * error
+		+ ((use_imu != 0U) ? cfg->kp_imu * wrap_pi(slow_error - error) : 0.0f);
 	const float i_candidate = hold->integral + slow_error * dt_s;
-	float output = p_output + HEADING_KI * i_candidate;
+	float output = p_output + cfg->ki * i_candidate;
 
 	/* 제한에 걸린 방향으로는 적분을 더 쌓지 않는다. */
-	if (output > HEADING_MAX_CORR_RAD_S) {
-		output = HEADING_MAX_CORR_RAD_S;
+	if (output > cfg->max_corr_rad_s) {
+		output = cfg->max_corr_rad_s;
 		if (slow_error < 0.0f) {
 			hold->integral = i_candidate;
 		}
 	}
-	else if (output < -HEADING_MAX_CORR_RAD_S) {
-		output = -HEADING_MAX_CORR_RAD_S;
+	else if (output < -cfg->max_corr_rad_s) {
+		output = -cfg->max_corr_rad_s;
 		if (slow_error > 0.0f) {
 			hold->integral = i_candidate;
 		}

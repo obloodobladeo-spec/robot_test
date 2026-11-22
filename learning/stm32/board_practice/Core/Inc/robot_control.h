@@ -52,11 +52,20 @@ typedef struct {
 	float correction_rad_s;
 } HeadingHold;
 
+/* heading hold 게인 (RAM 설정값: 실행 중 SWD로 바꿔 가며 시험할 수 있다. 기본값은 위 HEADING_* 상수) */
+typedef struct {
+	float kp_encoder;       /* (rad/s)/rad, 엔코더 yaw 오차 */
+	float kp_imu;           /* (rad/s)/rad, (IMU - 엔코더) 오차 */
+	float ki;               /* (rad/s)/(rad*s), IMU 오차 적분 */
+	float max_corr_rad_s;
+} HeadingConfig;
+
 typedef struct {
 	Motor *left_motor;
 	Motor *right_motor;
 
 	float wheel_track_mm;
+	HeadingConfig heading;
 
 	RobotState state;
 	HeadingHold hold;

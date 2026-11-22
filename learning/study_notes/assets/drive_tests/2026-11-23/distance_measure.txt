@@ -1,0 +1,8 @@
+거리 실측 (2026-11-23, Jetson 배터리, 50 mm/s, 엔코더 odom 기준 정지)
+1 target=1.0 odom_final=1012.3 real=1018
+2 (무효: 측정 실수) odom_final=1016.4
+2b target=1.0 odom_final=1014.0 real=1008
+3 target=1.0 odom_final=1014.3 real=1002
+4 target=0.5 odom_final=514.4 real=512
+5 target=0.5 odom_final=516.7 real=510
+6 target=0.5 odom_final=516.2 real=511

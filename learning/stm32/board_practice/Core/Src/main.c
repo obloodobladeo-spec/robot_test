@@ -77,7 +77,10 @@ Motor motor1 = {
 		.encoder_sign = 1,
 
 		.counts_per_turn = 2473.6f,
-		.wheel_circumference_mm = 345.6f,
+		/* 2026-11-23 Jetson·배터리 탑재 후 LiDAR 스캔 매칭 24구간: 엔코더가 실제보다 전진 -2.1°,
+		 * 후진 +2.2° 돌았다고 계산(오른쪽이 1.7% 덜 셈). 342.7/333.5로 1차 보정 후 반대로 넘어가(+1.6°)
+		 * 보간한 343.9/332.3에서 엔코더-실제 회전 차이 약 0 (±0.5°). 평균 거리 유지. */
+		.wheel_circumference_mm = 343.9f,
 
 		/* 고정 듀티 시험(9~14%) 좌우 평균 직선 근사: duty = 7.5 + 0.097 v.
 		 * 좌우 차이는 고정하지 않는다(GitHub 기록상 더 빠른 쪽이 매번 같지 않음).
@@ -103,7 +106,7 @@ Motor motor2 = {
 		/* 2026-11-22 볼 캐스터 1개, 50 cm 왕복 시험: 전진·후진 모두 엔코더가 IMU보다
 		 * 약 5° 더 돈 것으로 계산(오른쪽이 약 4.3% 더 감)되어 345.6 x 0.957 = 330.7로 보정.
 		 * 보정 후 엔코더-IMU 차이 0.5° 이하. 타이어 지름 차이 등 원인은 미확정. */
-		.wheel_circumference_mm = 330.7f,
+		.wheel_circumference_mm = 332.3f,
 
 		.ff_offset_percent = 7.5f,
 		.ff_slope_percent_per_mm_s = 0.097f
@@ -113,7 +116,13 @@ Motor motor2 = {
 Robot robot = {
 	.left_motor = &motor1,
 	.right_motor = &motor2,
-	.wheel_track_mm = WHEEL_TRACK_MM
+	.wheel_track_mm = WHEEL_TRACK_MM,
+	.heading = {
+		.kp_encoder = HEADING_KP,
+		.kp_imu = HEADING_KP_IMU,
+		.ki = HEADING_KI,
+		.max_corr_rad_s = HEADING_MAX_CORR_RAD_S
+	}
 };
 float linear_speed_mm_s = 0.0f;
 float angular_speed_rad_s = 0.0f;
